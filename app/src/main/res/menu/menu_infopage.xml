@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/text_small"
+        android:title="Decrease Font"
+        android:icon="@drawable/ic_decrease_font"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/text_large"
+        android:title="Increase Font"
+        android:icon="@drawable/ic_increase_font"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/remove_highlight"
+        android:title="Remove Hightlight"
+        android:icon="@drawable/ic_no_highlight"
+        app:showAsAction="always"/>
+</menu>

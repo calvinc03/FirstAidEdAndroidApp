@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudyFragment">
+
+    <TextView
+        android:id="@+id/ch1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="8sp"
+        android:text="Chapter 1 - Introduction to First Aid"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ch2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="8sp"
+        android:text="Chapter 2 - Emergency Scene Management"
+        app:layout_constraintTop_toBottomOf="@+id/ch1"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/ch3"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="8sp"
+        android:text="Chapter 1 - Introduction to First Aid"
+        app:layout_constraintTop_toBottomOf="@+id/ch2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/ch4"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="8sp"
+        android:text="Chapter 1 - Introduction to First Aid"
+        app:layout_constraintTop_toBottomOf="@+id/ch3"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/ch5"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="8sp"
+        android:text="Chapter 1 - Introduction to First Aid"
+        app:layout_constraintTop_toBottomOf="@+id/ch4"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/ch6"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="8sp"
+        android:text="Chapter 1 - Introduction to First Aid"
+        app:layout_constraintTop_toBottomOf="@+id/ch5"
+        tools:layout_editor_absoluteX="25dp"
+        tools:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ch7"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="8sp"
+        android:text="Chapter 1 - Introduction to First Aid"
+        app:layout_constraintTop_toBottomOf="@+id/ch6"
+        tools:layout_editor_absoluteX="16dp"
+        tools:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ch8"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="8sp"
+        android:text="Chapter 1 - Introduction to First Aid"
+        app:layout_constraintTop_toBottomOf="@+id/ch7"
+        tools:layout_editor_absoluteX="0dp"
+        tools:textSize="20sp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

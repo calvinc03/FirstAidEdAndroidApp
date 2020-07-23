@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirstAidLearning</string>
+    <string name="image">image</string>
+    <string name="placeholder_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="chapter_1_title">Chapter 1 - Introduction to First Aid</string>
+    <string name="chapter_2_title">Chapter 2 - Emergency Scene Management</string>
+    <string name="chapter_3_title">Chapter 1 - Introduction to First Aid</string>
+    <string name="chapter_4_title">Chapter 1 - Introduction to First Aid</string>
+    <string name="chapter_5_title">Chapter 1 - Introduction to First Aid</string>
+    <string name="chapter_6_title">Chapter 1 - Introduction to First Aid</string>
+    <string name="chapter_7_title">Chapter 1 - Introduction to First Aid</string>
+    <string name="chapter_8_title">Chapter 1 - Introduction to First Aid</string>
+    <string name="quiz">Quiz</string>
+    <string name="attempt">Most Recent Attempt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

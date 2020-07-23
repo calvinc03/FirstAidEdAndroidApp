@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@id/destination_home">
+    <fragment
+        android:id="@+id/destination_practice"
+        android:name="com.calvinchen.firstaidlearning.PracticeFragment"
+        android:label="Practice"
+        tools:layout="@layout/fragment_practice" />
+    <fragment
+        android:id="@+id/destination_home"
+        android:name="com.calvinchen.firstaidlearning.HomeFragment"
+        android:label="Progress"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_destination_home_to_infoPageActivity"
+            app:destination="@id/infoPageActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/destination_settings"
+        android:name="com.calvinchen.firstaidlearning.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <navigation android:id="@+id/destination_study"
+        app:startDestination="@id/study_fragment">
+        <fragment
+            android:id="@+id/study_fragment"
+            android:name="com.calvinchen.firstaidlearning.StudyFragment"
+            android:label="Study"
+            tools:layout="@layout/fragment_study">
+            <action
+                android:id="@+id/open_chapter"
+                app:destination="@id/chaptersFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/chaptersFragment"
+            android:name="com.calvinchen.firstaidlearning.ChaptersFragment"
+            android:label="Study"
+            tools:layout="@layout/fragment_chapters">
+            <argument
+                android:name="chapter"
+                app:argType="string" />
+            <action
+                android:id="@+id/open_page"
+                app:destination="@id/infoPageFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/infoPageFragment"
+            android:name="com.calvinchen.firstaidlearning.InfoPageFragment"
+            tools:layout="@layout/fragment_infopage">
+            <argument
+                android:name="file"
+                app:argType="string" />
+        </fragment>
+    </navigation>
+    <activity
+        android:id="@+id/infoPageActivity"
+        android:name="com.calvinchen.firstaidlearning.InfoPageActivity"
+        android:label="InfoPageActivity" />
+</navigation>
