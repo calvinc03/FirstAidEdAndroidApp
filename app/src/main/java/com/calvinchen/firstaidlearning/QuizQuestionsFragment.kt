@@ -1,15 +1,23 @@
 package com.calvinchen.firstaidlearning
 
+import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
+import android.content.Context
 import android.os.Bundle
 import android.util.DisplayMetrics
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.RadioButton
+import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.fragment_quiz_questions.*
 import org.json.JSONArray
+import java.io.BufferedReader
+import java.io.FileOutputStream
+import java.io.InputStreamReader
 
 
 class QuizQuestionsFragment : Fragment() {
@@ -19,9 +27,10 @@ class QuizQuestionsFragment : Fragment() {
     var index = 0
 
     private var screenWidth : Int = 0
+    private lateinit var chapter : String
 
-    var userAnswers = mutableListOf<String>()
-    var correctAnswers = mutableListOf<Boolean>()
+    private var accumulatedAnswers = ""
+    private var numCorrectAnswers = 0
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -32,15 +41,14 @@ class QuizQuestionsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        questionList = Constants.getJsonArrayFromFile(requireContext(), activity?.intent?.extras?.get("quiz") as String)
+        chapter = activity?.intent?.extras?.get("quiz") as String
+        questionList = Constants.getJsonArrayFromFile(requireContext(), "$chapter.json")
         generateRandomList()
 
         val metrics = DisplayMetrics()
         activity?.windowManager?.defaultDisplay?.getMetrics(metrics)
-        screenWidth = metrics.widthPixels - 20
+        screenWidth = metrics.widthPixels
 
-        println(questionList.length())
-        println(questionNumbers.size)
         populateQuestion(view)
     }
 
@@ -54,10 +62,12 @@ class QuizQuestionsFragment : Fragment() {
 
         quiz_question.text = question[0] as String
 
-        if (question[1] !== null) {
+        if (!question.isNull(1)) {
             val drawable = resources.getDrawable(resources.getIdentifier(question[1] as String, "drawable", requireContext().packageName), null)
-            drawable.setBounds(10, 0, screenWidth, (drawable.intrinsicHeight * screenWidth) / drawable.intrinsicWidth)
+//            drawable.setBounds(10, 0, screenWidth - 20, (drawable.intrinsicHeight * (screenWidth - 20) / drawable.intrinsicWidth))
             quiz_image.setImageDrawable(drawable)
+        } else {
+            quiz_image.setImageDrawable(null)
         }
 
         quiz_progress_bar.progress = index + 1
@@ -68,17 +78,53 @@ class QuizQuestionsFragment : Fragment() {
         quiz_option_4.text = question[5] as String
 
         quiz_submit.setOnClickListener {
+            if (quiz_radio.checkedRadioButtonId == -1) return@setOnClickListener
             val checked = view.findViewById(quiz_radio.checkedRadioButtonId) as RadioButton
 
-            userAnswers.add(checked.text as String)
-            correctAnswers.add(checked.text == question[question[6] as Int] as String)
+            val correct = checked.text == question[question[6] as Int]
+            numCorrectAnswers += if (correct) 1 else 0
+
+            accumulatedAnswers += "${question[0] as String}:::${checked.text as String}:::${correct}"
+            accumulatedAnswers += if (index != 9) "|||" else ""
 
             quiz_radio.clearCheck()
 
             index++
-            if (index > 9) {
 
-            } else populateQuestion(view)
+            val animation = AnimationUtils.loadAnimation(requireContext(), R.anim.slide_left)
+            animation.setAnimationListener(object : Animation.AnimationListener {
+                override fun onAnimationRepeat(p0: Animation?) {}
+
+                override fun onAnimationEnd(p0: Animation?) {
+                    if (index > 9) onFinishQuiz(view) else populateQuestion(view)
+                }
+
+                override fun onAnimationStart(p0: Animation?) {}
+
+            })
+            view.startAnimation(animation)
         }
+    }
+
+    private fun onFinishQuiz(view: View) {
+        val outputStream : FileOutputStream
+        try {
+            outputStream = requireContext().openFileOutput(chapter, Context.MODE_PRIVATE)
+            outputStream.write(accumulatedAnswers.toByteArray())
+            outputStream.close()
+        } catch (e : Exception) {
+            e.printStackTrace()
+        }
+
+        val sharedPref = activity?.getSharedPreferences("quizResults", Context.MODE_PRIVATE)
+        if (sharedPref?.getInt(chapter, -1)!! <= numCorrectAnswers) {
+            with (sharedPref.edit()) {
+                this?.putInt(chapter, numCorrectAnswers)
+                this?.commit()
+            }
+        }
+
+        val finishQuiz = QuizQuestionsFragmentDirections.completeQuiz("${numCorrectAnswers}/10", chapter)
+        Navigation.findNavController(view).navigate(finishQuiz)
     }
 }

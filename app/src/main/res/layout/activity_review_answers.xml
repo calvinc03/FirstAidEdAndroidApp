@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:background="@color/color_bg">
+<LinearLayout
+    android:id="@+id/review_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="25dp"
+    android:orientation="vertical"
+    tools:context=".ReviewAnswersActivity">
+
+    <TextView
+        android:id="@+id/best_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="20sp"
+        android:gravity="right"
+        android:text="Your Best Score: --/--"
+        android:textColor="@color/colorAccent" 
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/most_recent_results_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="20sp"
+        android:text="Your Most Recent Attempt:"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone"/>
+    
+    <TextView
+        android:id="@+id/quiz_not_completed_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Complete a quiz to see your results"
+        android:textSize="26sp"
+        android:textColor="@color/colorAccent"
+        android:visibility="visible"/>
+</LinearLayout>
+</ScrollView>

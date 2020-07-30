@@ -95,4 +95,11 @@ class MainActivity : AppCompatActivity() {
         i.putExtra("quiz", quizName)
         startActivity(i)
     }
+
+    fun navigateToReviewQuestions(chapter : String) {
+        progressBar.visibility = View.VISIBLE
+        val i = Intent(this, ReviewAnswersActivity::class.java)
+        i.putExtra("chapter", chapter)
+        startActivity(i)
+    }
 }

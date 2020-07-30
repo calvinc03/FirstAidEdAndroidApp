@@ -11,47 +11,55 @@
     ]
   },
   "chapter_2": {
-    "title": "Chapter 2 - Introduction to First Aid",
+    "title": "Chapter 2 - Emergency Scene Management",
     "sub_chap": [
-      "Roles and Responsibilities",
-      "First Aid and The Law",
-      "Safety and Personal Protection",
-      "Help at the Emergency Scene",
-      "Signs and Symptoms and Mechanism of Injury",
-      "Injuries and Illnesses"
+      "Steps of ESM",
+      "Scene Survey",
+      "Primary Survey",
+      "ESM when a head or spinal injury is suspected",
+      "Secondary Survey",
+      "Ongoing casualty care",
+      "Multiple casualty management (triage)"
     ]
   },
   "chapter_3": {
-    "title": "Chapter 3 - Introduction to First Aid",
+    "title": "Chapter 3 - Airway and Breathing Emergencies",
     "sub_chap": [
-      "Roles and Responsibilities",
-      "First Aid and The Law",
-      "Safety and Personal Protection",
-      "Help at the Emergency Scene",
-      "Signs and Symptoms and Mechanism of Injury",
-      "Injuries and Illnesses"
+      "Hypoxia",
+      "Effective and ineffective breathing",
+      "Asthma",
+      "Severe Allergic Reaction",
+      "Choking",
+      "Choking For Infants"
     ]
   },
   "chapter_4": {
-    "title": "Chapter 4 - Introduction to First Aid",
+    "title": "Chapter 4 - Cardiovascular Emergencies and Cardiopulmonary Resuscitation (CPR)",
     "sub_chap": [
-      "Roles and Responsibilities",
-      "First Aid and The Law",
-      "Safety and Personal Protection",
-      "Help at the Emergency Scene",
-      "Signs and Symptoms and Mechanism of Injury",
-      "Injuries and Illnesses"
+      "Cardiovascular disease",
+      "Angina and heart attack",
+      "Stroke and transient ischemic attack (TIA)",
+      "Cardiac arrest",
+      "Cardiopulmonary Resuscitation (CPR)",
+      "Automated External Defibrillation—AED"
     ]
   },
   "chapter_5": {
-    "title": "Chapter 5 - Introduction to First Aid",
+    "title": "Chapter 5 - Wounds and Bleeding",
     "sub_chap": [
-      "Roles and Responsibilities",
-      "First Aid and The Law",
-      "Safety and Personal Protection",
-      "Help at the Emergency Scene",
-      "Signs and Symptoms and Mechanism of Injury",
-      "Injuries and Illnesses"
+      "Dressings, bandages, and slings",
+      "Types of Wounds",
+      "Bleeding",
+      "Internal bleeding",
+      "Amputations",
+      "Minor Wound Care",
+      "First Aid for Contusions and Embedded Objects",
+      "Pneumothorax",
+      "Abdominal injuries",
+      "Scalp and facial injuries",
+      "Eye Injuries",
+      "Burns",
+      "Bites and stings"
     ]
   },
   "chapter_6": {

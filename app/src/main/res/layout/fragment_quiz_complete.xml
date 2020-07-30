@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".QuizCompleteFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Your Score:"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/quiz_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="10/10"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/return_home"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Go Home"
+        android:background="@drawable/button_subchapters"/>
+
+    <Button
+        android:id="@+id/go_to_review"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Review Answers"
+        android:background="@drawable/button_chapters"/>
+
+</LinearLayout>

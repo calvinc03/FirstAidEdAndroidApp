@@ -1,62 +1,60 @@
 {
-  "Roles and Responsibilities" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Cardiovascular disease" : [
+    {"header": "High blood pressure"},
+    {"paragraph": "Blood pressure is the pressure of the blood against the inside walls of the blood vessels. Blood pressure goes up and down naturally. When a person is excited or emotionally stressed, blood pressure goes up, but it usually comes down once the excitement has passed. In some people, their blood pressure stays high all the time. This condition of constant high blood pressure is called hypertension. \n\nOver time, hypertension damages the tissues of the cardiovascular system. The walls of the blood vessels become thick and lose their elasticity and the heart becomes enlarged. The changes caused by high blood pressure increase the risk of stroke, heart attack, kidney, and eye problems. Unfortunately, hypertension does not always give warning signals—you may feel perfectly well but still have high blood pressure. This is why it is often called the “silent killer.”"},
+    {"header":  "Narrowing of the arteries"},
+    {"paragraph": "Arteries are the blood vessels that carry blood away from the heart. They become diseased when fatty deposits build up inside them, making the passage for blood narrower. This process of depositing fat and narrowing of the arteries is called atherosclerosis. In the coronary arteries, which carry oxygenated blood to the heart, it is called coronary artery disease."},
+    {"image":  "image_narrow_arteries"},
+    {"paragraph": "As an artery gets narrower, less and less blood can get through. When the artery gets too narrow, the tissues on the other side of the narrowing don’t get enough oxygenated blood to function normally. Although the signs and symptoms of hardening of the arteries usually don’t appear until middle age or later, atherosclerosis often begins in childhood."},
+    {"header":  "Angina"},
+    {"paragraph": "Angina occurs when the blood supply feeding the heart muscle becomes limited due to narrowed, damaged, or blocked arteries. When the heart works harder and needs more blood (e.g. when you run for a bus or shovel snow), it cannot get enough blood. This causes pain or discomfort in the chest, which may spread to the neck, jaw, shoulders, and arms. Angina pain typically doesn’t last long, and goes away if the person rests and takes their prescribed medication."},
+    {"header":  "Heart attack"},
+    {"paragraph": "A heart attack happens when heart muscle tissue dies because its supply of blood has been cut off. A heart attack can feel just like angina, except the pain doesn’t go away with rest and medication. If the heart attack damages the heart’s electrical system, or if a lot of the heart muscle is affected, the heart may stop beating properly. This is cardiac arrest."}
   ],
-  "First Aid and The Law" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Angina and heart attack" : [
+    {"image":  "image_chainsurvival"},
+    {"paragraph": "Signs and symptoms of angina and a heart attack: \nA heart attack will produce shock and may display some or all of the following: "},
+    {"points": ["Pale, ashen skin","Sweating, cold and clammy to the touch", "Shortness of breath", "Showing obvious pain or discomfort"]},
+    {"paragraph": "The pain or discomfort will be in the upper body, from the upper abdomen to the jaw and arms, and may feel like:"},
+    {"points": ["Heaviness in chest", "Tightness or pressure in chest", "Squeezing or crushing chest","Indigestion, nausea or vomiting", "Aching jaw", "Sore shoulder or arms"]},
+    {"paragraph": "Some other signs and symptoms include:"},
+    {"points": ["Fatigue", "Anxiety, which produces denial", "Central back pain"]},
+    {"paragraph": "Denial is an important detail. If someone showing signs of shock, having trouble breathing and experiencing pain insists there is nothing wrong, then you should be very suspicious and take action."},
+    {"header":  "First aid for angina/heart attack"},
+    {"points": ["Perform a scene survey, then do a primary survey. Ask the casualty questions :\n     • “Can you show me where it hurts?”\n     • “Have you had this pain before?”\n     • “Do you have medication for this pain?”", "Call for medical help and get a defibrillator.", "Place the casualty at rest, the semi-sitting position is usually the best option, and reassure them", "Assist the conscious casualty to take their prescribed medication, usually nitroglycerin. If the casualty has no prescribed medication, or the first dose is ineffective, ask the casualty if they have any allergies to ASA, or if a doctor has ever told them not to take it. If the casualty believes they can take it, suggest they chew one regular ASA tablet (or two low-dose tablets). ASA can reduce the effects of a heart attack because of its anti-clotting properties.","If the casualty loses consciousness and stops breathing, start CPR"]},
+    {"header": "Helping with Nitroglycerin"},
+    {"image":  "image_nitro"},
+    {"paragraph": "Nitroglycerin tablets or sprays are common medications for relief of chronic angina pain. A casualty in serious distress may need your help to take their medication. \n\nAsk the casualty if they have taken any other medications today. Drugs to treat erectile dysfunction such as Viagra® or CIALIS® may cause a significant decrease in the person’s blood pressure if nitroglycerin is taken as well. \n\nHave the casualty spray the medication under the tongue or place the tablets under the tongue—they aren’t to be swallowed. \n\nNitroglycerin may be repeated, if needed, every 5-10 minutes to relieve pain, or until a maximum of three doses have been taken. Remember that if you have to assist someone to take their medication, you must call for medical help!"}
   ],
-  "Safety and Personal Protection" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Stroke and transient ischemic attack (TIA)" :  [
+    {"header": "Stroke"},
+    {"paragraph": "A stroke happens when blood flow to a part of the brain is interrupted either by a blocked artery or by a ruptured blood vessel in the brain. A stroke may cause brain damage which impairs certain body functions, depending on the part of the brain affected."},
+    {"header": "Transient ischemic attack (TIA)"},
+    {"paragraph": "A TIA is a temporary blockage of the blood flow to part of the brain. It’s typically of short duration and leaves no permanent damage but looks exactly like a stroke. \n\nDoctors now have therapies to restore blood flow to the heart muscle and brain, but they work best if used right away. This is why it’s important to realize there’s an emergency and call 9-1-1 to get the casualty to the hospital right away—the longer medical help is delayed, the more likely the heart or the brain will be damaged."},
+    {"paragraph": "Remember FAST as a way to check for the signs and symptoms of a stroke and to get immediate help."},
+    {"points": ["Facial droop. Ask them to smile. One side of the face maynot move as well as the other side.", "Arm drift. Ask the casualty to hold both arms out with the palms up, and close their eyes. One arm may not move or drifts down compared to the other arm", "Speech. Ask them to repeat a phrase you say. The casualty may slur words, use the incorrect words or is not able to speak.","Time. When was the onset of symptoms? Ask the casualty, or their family, friends, or bystanders when the symptoms were first noticed. Get immediate medical help; the earlier a stroke is treated the better the outcome."]},
+    {"header":  "First aid for stroke/TIA"},
+    {"points": ["Perform a scene survey, then do a primary survey; perform the FAST assessment.", "Call for medical help","Place the casualty at rest in the semi-sitting position", "Give nothing by mouth, especially ASA", "Give ongoing care"]},
+    {"paragraph": "If the casualty becomes unconscious, place them in the recovery position. If there is paralysis, position the casualty with the paralyzed side up. This will reduce the chance of tissue or nerve damage to the affected side."}
   ],
-  "Help at the Emergency Scene" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Cardiac arrest" :  [
+    {"paragraph": "Cardiac arrest means the heart stops beating properly. With no blood flow going to the brain the casualty becomes unresponsive and stops breathing. Cardiac arrest means the casualty is clinically dead, but if CPR is started and a defibrillator is applied quickly there is still an opportunity to restore a normal heartbeat."},
+    {"header":  "Common causes of cardiac arrest include:"},
+    {"points": ["Heart attack ", "Severe injuries","Electrical shock", "Drug overdose", "Drowning ", "Suffocation"]}
   ],
-  "Signs and Symptoms and Mechanism of Injury" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Cardiopulmonary Resuscitation (CPR)" :  [
+    {"paragraph": "CPR is artificial respiration and artificial circulation. Artificial respiration provides oxygen to the lungs. Artificial circulation causes blood to flow through the body. The purpose of CPR is to circulate enough oxygenated blood to the brain and other organs to delay damage until either the heart starts beating again, or medical help takes over from you. CPR is most effective when interruptions to chest compressions are minimized."},
+    {"header":  "CPR"},
+    {"points": ["Perform a scene survey", "Assess responsiveness.", "If there is no response, call for medical help on a mobile device, and place the phone on speaker-phone, and send someone for an AED. If no mobile phone is available, send or go for medical help and the AED, if available.", "Perform a primary survey:\n     • Open the airway.\n     • Check for breathing for at least 5 and no more than 10 seconds.","If the casualty is not breathing, or not breathing effectively position your hands in the centre of the upper chest and your shoulders directly over your hands.Keep your elbows locked"]},
+    {"image":  "image_cpr1"},
+    {"points": ["Give 30 compressions—Push hard—Push Fast!", "Open the airway by tilting the head and lifting the chin.", "Position a barrier device and breathe into the casualty twice. For an adult casualty, each breath should take about for 1 second, with just enough air to make the chest rise."]},
+    {"image":  "image_cpr2"},
+    {"points": ["Continue CPR until either an AED is applied, the casualty begins to respond, another first aider or medical help takes over or you are too exhausted to continue. The AED should be applied as soon as it arrives at the scene. "]}
   ],
-  "Injuries and Illnesses" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Automated External Defibrillation—AED" : [
+    {"paragraph": "An automated external defibrillator (AED) is an electronic device that is programmed to recognize and shock two types of heart rhythms, Ventricular Fibrillation (VF) and pulseless Ventricular Tachycardia (VT). If the machine recognizes either VT or VF in a casualty, it will charge and will indicate that a shock is advised. The purpose of this shock is to correct the abnormal electrical disturbance and re-establish the heart rhythm.\n\nTime is a critical factor in determining survival from cardiac arrest; the heart will only stay in fibrillation a short time before all electrical activity ceases. Defibrillation must be performed early to be most effective. CPR can keep oxygenated blood flowing to the brain, and helps extend the length of time that the heart will remain in VT or VF, the only arrhythmias that AEDs will shock. CPR then can “buy some time” for the casualty until the AED is attached and ready to deliver a shock."},
+    {"image":  "image_aed"},
+    {"header":  "Special Considerations and Special Circumstances"},
+    {"paragraph": "Pregnant patients–AEDs can be used in all stages of pregnancy. \n\nPacemakers or implanted defibrillators–Defibrillator pads should not be placed directly over a pacemaker site but should be approximately 2.5 cm (one inch) away. Look for scars or lumps on the chest as an indicator of implanted devices. \n\nChildren under 8 years of age–Automated external defibrillators (AEDs) may be used for children and infants. Special pads or a pediatric setting on the machine are used, but if not available adult pads can be used. Some adult pads show an alternate placement for children/infants. \n\nPatch medications–some casualties wear a patch that contains medication such as nitroglycerin for angina. If the patch is in the way of the pad placement, gently remove it with gloved hands from the chest and wipe the area clean. \n\nWet environment–AEDs can be used in wet areas. Dry the chest to ensure good pad contact. Move the casualty to a dry area if possible. If you or the casualty is submersed in water, avoid using the AED. \n\nMetal surfaces–AEDs can be used safely with the casualty on a metal surface. \n\nJewelry and piercings–Avoid placing pads over-top of piercings, jewelry, or anything that would cause a gap. AED pads should adhere flat to the skin. Environment–Ensure the environment you are using an AED in does not contain explosive gases."}
   ]
 }

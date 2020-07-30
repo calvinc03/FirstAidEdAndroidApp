@@ -1,14 +1,14 @@
 package com.calvinchen.firstaidlearning
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONArray
 
 class QuizQuestionsActivity : AppCompatActivity() {
     private lateinit var chapterQuiz : String
-
-    lateinit var questionList : JSONArray
-    lateinit var questionNumbers: List<Int>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,12 +16,18 @@ class QuizQuestionsActivity : AppCompatActivity() {
 
         chapterQuiz = intent.extras?.get("quiz") as String
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title = chapterQuiz.replace("_", " ").substring(0, 14)
+        supportActionBar?.title = chapterQuiz.replace("_", " ")
 
     }
 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
+    }
+
+    fun navigateToReviewQuestions(chapter : String) {
+        val i = Intent(this, ReviewAnswersActivity::class.java)
+        i.putExtra("chapter", chapter)
+        startActivity(i)
     }
 }

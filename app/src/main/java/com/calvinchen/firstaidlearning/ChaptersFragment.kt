@@ -30,6 +30,7 @@ class ChaptersFragment : Fragment() {
 
         val args = arguments?.let { ChaptersFragmentArgs.fromBundle(it) }
 
+        println("This is called!!!!!!!")
         populateSubChapters(view, args?.chapter)
     }
 
@@ -49,15 +50,26 @@ class ChaptersFragment : Fragment() {
             val tv : TextView = v.findViewById(R.id.subChapter_title)
             tv.text = subChapters[i] as String
 
-            val image : ImageView = v.findViewById(R.id.subChapter_check)
-            image.setImageResource(R.drawable.ic_check)
+            if (activity?.getSharedPreferences("visited", Context.MODE_PRIVATE)?.getBoolean(subChapters[i] as String, false)!!) {
+                val image : ImageView = v.findViewById(R.id.subChapter_check)
+                image.setImageResource(R.drawable.ic_check)
+            }
 
             v.setOnClickListener {
                 if (chapter_num != null) {
-                    (activity as MainActivity).navigateToInfoPage(chapter_num, subChapters[i] as String)
+                    val sharedPref = activity?.getSharedPreferences("visited", Context.MODE_PRIVATE)
+                    with(sharedPref?.edit()) {
+                        this?.putBoolean(subChapters[i] as String, true)
+                        this?.apply()
+                    }
+                    (activity as MainActivity).navigateToInfoPage(
+                        chapter_num,
+                        subChapters[i] as String
+                    )
+                    val image : ImageView = v.findViewById(R.id.subChapter_check)
+                    image.setImageResource(R.drawable.ic_check)
                 }
             }
-
             layout.addView(v)
         }
     }

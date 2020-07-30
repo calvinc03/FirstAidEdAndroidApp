@@ -1,62 +1,60 @@
 {
-  "Roles and Responsibilities" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Hypoxia" : [
+    {"paragraph": "Choking and breathing emergencies cause a lack of oxygen in the blood, a condition called hypoxia. This can damage vital tissues and eventually cause death. The causes of hypoxia are grouped under three headings: "},
+    {"image":  "image_hypoxia"}
   ],
-  "First Aid and The Law" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Effective and ineffective breathing" : [
+    {"paragraph": "A breathing rate that is too slow or too fast is a sign of a breathing emergency. In normal breathing, the intervals are even and breathing is effortless—this is regular breathing.  Signs of effective breathing include: "},
+    {"points": ["Breathing that is quiet ", "Equal expansion of both sides of the chest when the person inhales", "The person is alert and relaxed ","Skin colour is normal ", "Speaking without taking a breath every few words"]},
+    {"paragraph": "When a person is not getting enough oxygen, the body responds by breathing faster and deeper. Signs of ineffective breathing include: "},
+    {"points": ["The casualty is struggling for breath or gasping for air ", "Breathing rate is too fast or too slow ","Breathing rhythm is irregular", "Breathing depth is too shallow or too deep ", "Breathing is noisy or raspy ", "The person is “getting tired” from trying to breathe ","The person is sweating ", "Decreased level of consciousness ", "The lips, ears and fingernail beds turn blue—called cyanosis ", "Chest movement may be abnormal"]}
   ],
-  "Safety and Personal Protection" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Asthma" :  [
+    {"paragraph": "Asthma is a reactive airway illness in which the person has repeated shortness of breath, characterized by wheezing and coughing. A mild asthma attack is not a health emergency and can be managed by the casualty. A severe asthma attack can be fatal and requires immediate first aid. In response to a ‘trigger’ the person’s airway can spasm, swell and secrete thick mucus, which narrows the airway passage.\n\nSigns and symptoms of a severe asthmatic attack: "},
+    {"points": ["Shortness of breath with obvious trouble breathing ", "Coughing or wheezing ","Fast, shallow breathing ", "Casualty sitting upright trying to breathe ", "Bluish colour in the face (cyanosis ) ","Anxiety, tightness in the chest ", "Fast pulse rate, shock ", "Restlessness at first, and then fatigue"]},
+    {"paragraph": "First aid for a severe asthma attack"},
+    {"points": ["Perform a scene survey and a primary survey; send for medical help. ","Place the casualty in the most comfortable position for breathing. This is usually sitting upright with arms resting on a table. ", "Help the casualty take prescribed medication. ", "Give ongoing casualty care. ", "If the unconscious casualty stops breathing, begin CPR"]},
+    {"paragraph": "A person with asthma may carry medication in the form of a:"},
+    {"points": ["Metered-dose inhaler (MDI) ", "Turbuhaler ", "Diskus®"]},
+    {"header":  "To assist with a Metered Dose Inhaler "},
+    {"paragraph": "The metered dose inhaler (or “puffer”) is the more common method of delivering medication for asthma. "},
+    {"points": ["Shake the container, then remove the cap. ", "Tell the casualty to breathe out completely, ", "Tell the casualty to breathe in slowly and deeply—as the casualty does, the MDI will be pressed to release the medication. The MDI can be in the mouth, or just in front of the mouth. ", "Tell the casualty to hold their breath for 10 seconds so the medication can spread out in the lungs. Then tell them to breathe normally, so the medication won’t be expelled. If more doses are needed, wait at least 30-60 seconds before repeating these steps."]}
   ],
-  "Help at the Emergency Scene" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Severe Allergic Reaction" :  [
+    {"paragraph": "Anaphylaxis is a severe allergic reaction which usually happens when a substance to which the casualty is very sensitive enters the body, although it can also be caused by exercise or have no known cause. Anaphylaxis can happen within seconds, minutes or hours of a substance entering the body. As a rule, the sooner the casualty’s body reacts, the worse the reaction will be. Anaphylaxis is a serious medical emergency that needs urgent medical attention.\n\nCommon early signs and symptoms of an allergy may include itchy flushed skin with hives; sneezing and a runny nose; coughing. If it’s a severe reaction there may be swelling of the face and neck, especially the lips and tongue. Breathing may become difficult if the swelling is internal too. There may be nausea and vomiting and the casualty may be anxious and feeling sense of impending doom as their blood pressure drops and they go into shock. This is a true medical emergency and requires immediate first aid."},
+    {"header":  "First aid for a severe allergic reaction"},
+    {"points": ["Perform a scene survey and a primary survey. Send for medical help. ", "Place the casualty in the most comfortable position for breathing—usually sitting upright.", "Assist the casualty with their medication, usually this is an epinephrine auto-injector", "Give ongoing casualty care"]},
+    {"header": "To use the auto-injector:"},
+    {"points": ["Remove the EpiPen® from the storage tube. Hold it firmly with the orange tip downward. Remove the blue safety release"]},
+    {"image":  "image_epipen1"},
+    {"points": ["Use the auto-injector on only the fleshy part of the mid-outer thigh. Auto-injectors can be given through lightweight clothing.", "Press the orange tip of the EpiPen® firmly into the midouter thigh until the unit activates.", "Hold the auto-injector in place for several seconds, then pull it straight out. "]},
+    {"image":  "image_epipen2"},
+    {"points": ["After the injection, keep the casualty warm and avoid any exertion. Call 9-1-1 as soon as you have given the first dose."]},
+    {"image":  "image_epipen3"}
   ],
-  "Signs and Symptoms and Mechanism of Injury" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Choking" :  [
+    {"paragraph": "A person chokes when the airway is partly or completely blocked and airflow to the lungs is reduced or cut off. The choking casualty either has trouble breathing or cannot breathe at all."},
+    {"image":  "image_choking1"},
+    {"image":  "image_choking2"},
+    {"header":  "First aid for choking"},
+    {"paragraph": "First aid for a choking adult or child"},
+    {"points": ["Perform a scene survey.", "If the casualty can cough forcefully, speak or breathe, tell them to try to cough up the object. If a mild obstruction lasts for a few minutes, get medical help."]},
+    {"paragraph": "If you think there might be a severe obstruction, check by asking, “Are you choking?” If the casualty cannot cough forcefully, speak or breathe, use back blows followed by abdominal thrusts to remove the blockage."},
+    {"points": ["Give back blows and abdominal thrusts:", "Support the casualty and give up to five blows between the shoulder blades using the heel of your hand.", "If the obstruction is not cleared, step behind the casualty ready to support them if they become unconscious.", "Make a fist, place it on the casualty’s abdomen at the belly button, in line with the hip bones. Grasp the fist with the other hand and give five forceful inward and upward abdominal thrusts.", "If the object is not removed, repeat back blows and abdominal thrusts."]},
+    {"paragraph": "If the casualty becomes unconscious"},
+    {"points": ["Lower them to the ground. Call for medical help and get an AED if available", "Begin chest compressions immediately. After the first 30 compressions, check the mouth. Remove any foreign object you can see. Try to give 2 breaths. If air does not go in, continue to give chest compressions and inspecting the mouth before ventilations."]}
   ],
-  "Injuries and Illnesses" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Choking For Infants" : [
+    {"header": "First aid for a choking infant"},
+    {"paragraph": "An infant is choking when they suddenly have trouble breathing, coughing, gagging, with high-pitched, noisy breathing"},
+    {"points": ["Perform a scene survey and primary survey", "If the baby can cough forcefully or breathe let the baby try to cough up the object. If a mild obstruction lasts for more than a few minutes, send for medical help"]},
+    {"image":  "image_choking_infant1"},
+    {"points": ["If the baby cannot cough forcefully, cannot breathe, makes a high-pitched noise when trying to breathe or starts to turn blue, begin back blows and chest thrusts", "Secure the baby between your forearms and turn them face down"]},
+    {"image":  "image_choking_infant2"},
+    {"points": ["With the baby’s head lower than the body, use the heel of your hand to give five forceful back blows between the shoulder blades"]},
+    {"image":  "image_choking_infant3"},
+    {"points": ["Turn the baby face-up and give five chest thrusts"]},
+    {"image":  "image_choking_infant4"},
+    {"points": ["Keep giving back blows and chest thrusts until either the airway is cleared or the baby becomes unconscious.", "If the baby becomes unconscious, send for medical help. Begin chest compressions immediately. After the first 30 compressions, check the mouth. Remove any foreign object you can see. Try to give 2 breaths and continue to give chest compressions and inspecting the mouth before ventilations"]}
   ]
 }

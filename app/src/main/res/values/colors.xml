@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="color_tablecell">#3AEC3E</color>
+    <color name="colorPrimary">#72B6EA</color>
+    <color name="colorPrimaryDark">#C7D3DD</color>
+    <color name="colorAccent">#37393A</color>
+    <color name="color_bg">#E8EEF2</color>
+    <color name="radio_bg">#D9E1E8</color>
 </resources>

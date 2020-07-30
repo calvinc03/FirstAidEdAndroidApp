@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".ChaptersFragment">
+<LinearLayout
     android:id="@+id/chapters_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".ChaptersFragment">
+    android:paddingBottom="70dp">
 
     <TextView
         android:id="@+id/chapter_title"
@@ -16,12 +21,13 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/chapter_title_bg"
+        android:background="@drawable/bg_chapter_title"
         android:gravity="center|center_vertical"
         android:minHeight="60dp"
         android:text=""
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="177dp" />
 
 </LinearLayout>
+</ScrollView>

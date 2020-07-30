@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/color_bg"
     tools:context=".QuizQuestionsActivity">
 
     <fragment
@@ -13,6 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:navGraph="@navigation/quiz_navigation"
-        android:name="com.calvinchen.firstaidlearning.QuizQuestionsFragment"/>
+        android:name="androidx.navigation.fragment.NavHostFragment"/>
 
 </LinearLayout>

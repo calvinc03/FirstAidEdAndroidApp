@@ -31,7 +31,7 @@ class InfoPageActivity : AppCompatActivity() {
     private var screenWidth : Int = 0
 
     private var s = SpannableStringBuilder()
-    private var fontSize : Float = 16F
+    private var fontSize : Float = 18F
 
     private var highlighted : String = ""
     private var highlightSpanList = mutableListOf<BackgroundColorSpan>()
@@ -57,7 +57,6 @@ class InfoPageActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         val sharedPref = getPreferences(Context.MODE_PRIVATE)
-        println(highlighted)
         with (sharedPref.edit()) {
             putString(supportActionBar?.title as String, highlighted)
             putFloat("textSize", fontSize)
@@ -103,7 +102,7 @@ class InfoPageActivity : AppCompatActivity() {
     private fun buildPage() {
         val metrics = DisplayMetrics()
         windowManager?.defaultDisplay?.getMetrics(metrics)
-        screenWidth = metrics.widthPixels - 20
+        screenWidth = metrics.widthPixels - 70
 
         for (i in 0 until pageViews.length()) {
             val obj : JSONObject = pageViews[i] as JSONObject
@@ -115,20 +114,21 @@ class InfoPageActivity : AppCompatActivity() {
         applyPreviousHighlights()
         info_text.text = s
 
-        fontSize = getPreferences(Context.MODE_PRIVATE).getFloat("textSize", -1F)
-        info_text.textSize = if (fontSize == -1F) 16F else fontSize
+        fontSize = getPreferences(Context.MODE_PRIVATE).getFloat("textSize", 18F)
+        info_text.textSize = fontSize
     }
 
     private fun createElement(key : String, value : Any) {
         when (key) {
             "header" -> {
-                s.scale(1.2F) { bold {append("\n" + value as String + "\n\n")}}
+                s.scale(1.2F) { bold {append("\n" + value as String + "\n")}}
             }
             "image" -> {
                 s.append("\n")
                 val drawable = resources.getDrawable(resources.getIdentifier(value as String, "drawable", packageName), null)
-                drawable.setBounds(10, 0, screenWidth, (drawable.intrinsicHeight * screenWidth) / drawable.intrinsicWidth)
+                drawable.setBounds(0, 0, screenWidth, (drawable.intrinsicHeight * screenWidth) / drawable.intrinsicWidth)
                 s.inSpans(ImageSpan(drawable)) {append(" ")}
+                s.append("\n")
             }
             "paragraph" -> {
                 s.append("\n" + value as String + "\n")
@@ -138,10 +138,14 @@ class InfoPageActivity : AppCompatActivity() {
 
                 val list = value as JSONArray
                 for (i in 0 until list.length()) {
-                    if (Build.VERSION.SDK_INT >= 28)
-                        s.inSpans(BulletSpan(15, Color.BLACK, 10)) { scale(0.9F) {append(list[i] as String + "\n")}}
-                    else
-                        s.inSpans(BulletSpan(15)) { scale(0.9F) {append(list[i] as String + "\n")}}
+                    if (Build.VERSION.SDK_INT >= 28) {
+                        s.inSpans(BulletSpan(15, Color.BLACK, 8)) { scale(0.95F) { append(list[i] as String + "\n") } }
+                        s.scale(0.2F) {append("\n")}
+                    }
+                    else {
+                        s.inSpans(BulletSpan(15)) { scale(0.95F) { append(list[i] as String  + "\n") } }
+                        s.scale(0.2F) {append("\n")}
+                    }
                 }
             }
             else -> return

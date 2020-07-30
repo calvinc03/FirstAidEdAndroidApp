@@ -13,11 +13,7 @@
         android:id="@+id/destination_home"
         android:name="com.calvinchen.firstaidlearning.HomeFragment"
         android:label="Progress"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_destination_home_to_infoPageActivity"
-            app:destination="@id/infoPageActivity" />
-    </fragment>
+        tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/destination_settings"
         android:name="com.calvinchen.firstaidlearning.SettingsFragment"

@@ -1,62 +1,68 @@
 {
-  "Roles and Responsibilities" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Steps of ESM" : [
+    {"header": "Steps of ESM "},
+    {"paragraph": "Emergency scenes generally begin with confusion as people realize there is an emergency unfolding in front of them. No one knows what to do first, who should be in charge, or how they can help. In this situation, the first aider needs to follow a sequence of actions that ensures safe and appropriate first aid is given and everyone’s safety is protected. First aiders use emergency scene management (ESM) to do this. Emergency scene management is the sequence of actions you should follow to ensure safe and appropriate first aid is given."},
+    {"points": ["Scene survey—during the scene survey you take control of the scene, find out what happened and make sure the area is safe before assessing the casualty.","Primary survey—assess each casualty for life-threatening injuries and illnesses, call or send someone to call 9-1-1, and give life-saving first aid. ", "Secondary survey—the secondary survey is a step-by-step way of gathering information to form a complete picture of the casualty’s overall condition.", "Ongoing casualty care—during ongoing casualty care you continue to monitor the casualty’s condition until medical help takes over."]}
   ],
-  "First Aid and The Law" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Scene Survey" : [
+    {"points": ["Take charge of the situation ", "Call out for help to attract bystanders", "Assess hazards and make the area safe ", "Find out the history of the emergency, how many casualties there are and the mechanism(s) of injury ", "Identify yourself as a first aider and offer to help, get consent ", "Assess responsiveness"]},
+    {"paragraph": "Send or go for medical help as soon as you identify a serious problem and then begin the primary survey. If you have a mobile phone, you can dial 9-1-1 or your local emergency number, and put the device on speaker phone, if possible. This allows the first aider to remain with the casualty."}
   ],
-  "Safety and Personal Protection" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Primary Survey" :  [
+    {"paragraph": "Check for life-threatening conditions, the ABCs:"},
+    {"points": ["A = Airway ", "B = Breathing ", "C = Circulation "]},
+    {"paragraph": "The sequential steps of the primary survey should be performed with the casualty in the position found unless it is impossible to do so. The primary survey should begin immediately after the scene survey. "},
+    {"header":  "Check the airway "},
+    {"paragraph": "If the casualty is conscious, ask “what happened?” How well the casualty responds will help you determine if the airway is clear. Use a head-tilt-chin-lift to open the airway of an unresponsive casualty. If you suspect a head or spinal injury, and have been trained, use a jaw-thrust without head-tilt."},
+    {"header": "Check for breathing "},
+    {"points": ["If the casualty is conscious, check by asking how their breathing is. ", "If the casualty is unconscious, check for breathing for at least five seconds, and no more than 10 seconds. If breathing is effective, move on to check circulation. If breathing is absent or ineffective (gasping and irregular, agonal), begin CPR. "]},
+    {"header": "Check circulation"},
+    {"points": ["Control obvious, severe bleeding ", "Check for shock by checking skin condition and temperature ", "Check with a rapid body survey for hidden, severe, external bleeding and signs of internal bleeding"]},
+    {"header":  "Rapid body survey"},
+    {"paragraph": "The rapid body survey is a quick assessment of the casualty’s body which is performed during the primary survey. By running your hands over the casualty’s entire body from head to toe (and under heavy outwear), you are able to feel for severe bleeding, internal bleeding and any obvious fractures.\nWhen performing the rapid body survey: "},
+    {"points": ["Wear gloves when possible, and check gloves for blood every few seconds ", "Be careful not to cause any further injuries while performing the survey ", "Look at the casualty’s face to notice any responses to the rapid body survey"]},
+    {"header": "Provide first aid for life-threatening injuries or conditions."},
+    {"points": ["Maintain an open airway with a head-tilt chin-lift or by placing the unresponsive breathing casualty into the recovery position ", "Provide CPR if the unresponsive casualty is not breathing or not breathing normally (gasping)"," Control severe bleeding", "Provide support for obvious fractures", "Give first aid for shock by providing first aid for lifethreatening injuries and maintaining the casualty’s body temperature", "Evaluate the situation and decide whether to do a secondary survey"]}
   ],
-  "Help at the Emergency Scene" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "ESM when a head or spinal injury is suspected" :  [
+    {"image":  "image_hs1"},
+    {"image":  "image_hs2"},
+    {"image":  "image_hs3"},
+    {"paragraph": "When moving a casualty with a suspected head or spinal injury, move them as a unit as much as possible. This means rolling the head, trunk and legs together, or lifting the whole body at the same time. Do what you can to prevent movement."}
   ],
-  "Signs and Symptoms and Mechanism of Injury" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+  "Secondary Survey" :  [
+    {"paragraph": "In the secondary survey, the first aider is looking for injuries or illnesses that may not have been revealed in the primary survey. You should complete a secondary survey if: "},
+    {"points": ["The casualty has more than one injury ", "Medical help will be delayed for 20 minutes or more", "You will transport the casualty to medical help"]},
+    {"header":  "History"},
+    {"paragraph": "A SAMPLE history is used to gather a brief medical history of the casualty. This information may be useful for health care professionals who will continue to assist the casualty. If the casualty is unable to respond, some of the SAMPLE history could be answered by a close family member."},
+    {"points": ["S = symptoms – what the casualty is feeling (such as pain, nausea, weakness, etc.) ", "A = allergies – any allergies, specifically allergies to medications", "M = medications – any medications or supplements they normally take, have taken in the past 24 hours, or any doses they may have missed ", "P = past or present medical history – any medical history, especially if it is related to what they are experiencing now. Ask if they have medical alert information", "L = last meal – last meal they ate and when, anything else taken by mouth", "E = events leading to the incident – what was happening before the injury/illness? How did the injury occur?"]},
+    {"header":  "Vital signs "},
+    {"paragraph": "There are four vital signs to check on the casualty "},
+    {"points": ["Level of consciousness (LOC)", "Breathing - To assess the breathing rate, watch the casualty closely for a total of 30 seconds. It is OK to place your hand on their upper abdomen to feel the rise and fall. Check the quality of the breathing. Carefully count each breath over the 30 seconds and multiply that number by two for breaths per minute"]},
+    {"image":  "image_breathingrates_table"},
+    {"points": ["Pulse - To assess the pulse, use two fingers and gently place them on either the inside of the wrist (just below the hand on the thumb side), or on the side of the neck (carotid artery), or for infants, the inside of the upper arm, on the brachial artery. Once you have found the pulse, count the number of beats over 30 seconds and multiply that number by two."]},
+    {"image":  "image_pulserates_table"},
+    {"points": ["Skin condition and temperature - When assessing the skin we look for the temperature (warm or cold), the colour (normal skin tones or pale) and whether the skin is dry or wet. Use the back of your gloved hand to feel the casualty’s forehead and cheeks. If their skin normal, they will have normal skin colour, and their skin will be warm and dry. If the skin is pale, cold and wet (sweaty), this could be an indication of shock."]},
+    {"header":  "Head-to-toe exam "},
+    {"paragraph": "The head-to-toe exam is a complete and detailed check of the casualty for any injuries that may have been missed during the rapid body survey. Do not examine for unlikely injuries. You may need to expose an area to check for injuries, but always respect the casualty’s modesty and ensure you protect them from the cold. Only expose what you absolutely have to. "},
+    {"points": ["Ask the casualty if they feel any pain before you start. Note any responses. ", "Speak to the casualty throughout the process. Explain what you are checking for as you proceed. ", "Always watch the casualty’s face for any facial expressions that may indicate pain. ", "Do not stop the exam. If you find an injury, note it and continue.", "Do not step over the casualty. If you need to, walk around them.", "During a detailed exam, you are looking for all bumps, bruises, scrapes, or anything that is not normal.", "If the casualty is unconscious, look for medic alert devices during your survey, such as a tag, bracelet, necklace, watch, or other indicator. ", "Look, then feel"]},
+    {"header":  "Document "},
+    {"paragraph": "Upon completion of the secondary survey, document your findings as accurately as possible. This information may be valuable to medical professionals who will continue to assist the casualty."}
   ],
-  "Injuries and Illnesses" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
-  ]
+  "Ongoing casualty care" : [
+    {"paragraph": "Once first aid for injuries and illnesses that are not life threatening has been given:"},
+    {"points": ["The first aider will hand over control of the scene to the casualty, or someone else, and end their involvement in the emergency ", "The first aider will stay in control of the scene and wait for medical help to take over, or", "The first aider will stay in control of the scene and transport the casualty to medical help"]},
+    {"paragraph": "The first aid must maintain the casualty in the best possible condition until handover to medical help by: "},
+    {"points": ["Giving first aid for shock ", "Position the casualty based upon their condition ", "Monitoring the casualty’s condition", " Recording the events of the situation", "Reporting on what happened to whoever takes over "]},
+    {"paragraph": "Instruct a bystander to maintain manual support of the head and neck (if head/spinal injuries are suspected). Continue to steady and support manually, if needed"},
+    {"header": "Recovery Position"},
+    {"paragraph": "This position protects the casualty and also reduces bending and twisting of the spine. This position protects the airway if you must leave the casualty"},
+    {"image": "image_recovery1" },
+    {"image": "image_recovery2" }
+  ],
+   "Multiple casualty management (triage)" : [
+      {"paragraph": "The process of making decisions at an emergency scene where multiple people are injured is called triage. In triage, first aiders quickly examine all casualties and place them in order of greatest need for first aid and for transportation. The idea is to do the most good for the greatest number of casualties.\n\nCasualties are categorized into three levels of priority:"},
+      {"points": ["Highest priority—casualties who need immediate first aid and transportation to medical help", "Medium priority—casualties who probably can wait one hour for medical help without risk to their lives ", "Lowest priority—casualties who can wait and receive first aid and transportation last, or casualties who are obviously dead"]},
+      {"image":  "image_triage"}
+   ]
 }

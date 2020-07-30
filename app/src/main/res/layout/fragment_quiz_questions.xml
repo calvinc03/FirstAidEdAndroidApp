@@ -6,31 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+    android:id="@+id/quiz"
     tools:context=".QuizQuestionsFragment">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="15dp"
-        android:gravity="center_vertical"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/quiz_question"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5sp"
-            android:gravity="center"
-            android:textColor="#363A43"
-            android:textSize="24sp" />
-
-        <ImageView
-            android:id="@+id/quiz_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
+        android:layout_marginRight="15dp">
 
         <LinearLayout
             android:id="@+id/ll_progress_bar"
@@ -40,7 +24,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
 
             <ProgressBar
                 android:id="@+id/quiz_progress_bar"
@@ -65,63 +50,125 @@
 
         </LinearLayout>
 
-        <RadioGroup
-            android:id="@+id/quiz_radio"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/quiz_submit"
+            android:layout_below="@+id/ll_progress_bar"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
 
-            <RadioButton
-                android:id="@+id/quiz_option_1"
+            <TextView
+                android:id="@+id/quiz_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:textColor="#37393A"
+                android:textSize="24sp"
+                android:text="This is your question"/>
+
+            <ImageView
+                android:id="@+id/quiz_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginBottom="50dp"/>
+
+            <RadioGroup
+                android:id="@+id/quiz_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
-                android:text="xd" />
+                android:background="@color/radio_bg">
 
-            <RadioButton
-                android:id="@+id/quiz_option_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
-                android:text="RadioButton" />
 
-            <RadioButton
-                android:id="@+id/quiz_option_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
-                android:text="RadioButton" />
+                <RadioButton
+                    android:id="@+id/quiz_option_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:text="Option 1"
+                    android:textSize="18sp"
+                    android:button="@drawable/button_radio"
+                    android:drawablePadding="10dp"/>
 
-            <RadioButton
-                android:id="@+id/quiz_option_4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
-                android:text="RadioButton" />
-        </RadioGroup>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/color_bg"/>
+
+                <RadioButton
+                    android:id="@+id/quiz_option_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Option 1"
+                    android:textSize="18sp"
+                    android:button="@drawable/button_radio"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/color_bg"/>
+
+                <RadioButton
+                    android:id="@+id/quiz_option_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Option 1"
+                    android:textSize="18sp"
+                    android:button="@drawable/button_radio"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/color_bg"/>
+
+                <RadioButton
+                    android:id="@+id/quiz_option_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Option 1"
+                    android:textSize="18sp"
+                    android:button="@drawable/button_radio"/>
+            </RadioGroup>
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/quiz_submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="20dp"
-            android:layout_marginBottom="5dp"
-            android:background="@color/design_default_color_primary"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorPrimary"
             android:text="Next"
             android:textColor="#FFFFFF" />
 
-    </LinearLayout>
+    </RelativeLayout>
 </ScrollView>

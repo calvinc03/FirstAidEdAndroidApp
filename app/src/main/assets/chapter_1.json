@@ -1,62 +1,50 @@
 {
   "Roles and Responsibilities" : [
-    {"title": "Roles and Responsibilities"},
     {"header": "What is first aid?"},
     {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
     {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
     {"header":  "What can a first aider do?"},
     {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]}
   ],
   "First Aid and The Law" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"header": "Principles of the Good Samaritan"},
+    {"paragraph": "Across Canada Good Samaritan laws and principles protect first aiders from lawsuits. You are a Good Samaritan if you are a bystander who helps a person when you have no legal duty to do so. As a Good Samaritan, you give your help without being paid, and you give it in good faith. Whenever you help a person in an emergency situation, you should abide by the following principles: "},
+    {"points": ["You identify yourself as a first aider and get permission to help the injured or ill person before you touch them—this is called consent ", "You use reasonable skill and care in accordance with the level of knowledge and skill that you have ", "You are not negligent in what you do ", "You do not abandon the person"]}
   ],
   "Safety and Personal Protection" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"paragraph": "In any emergency, first aid providers must always be aware of hazards and give first aid safely. A hazard is anything that poses a risk of injury or death to a first aid provider. There are three basic types of risks to be aware of:"},
+    {"points": ["The energy source that caused the original injury—is the mechanism that caused the original injury still active, causing injury to others? Example: where an injury has been caused by machinery, is the machinery still running?", "There may be hazards caused by external factors. Example: passing vehicles may pose a risk at the scene of a motor vehicle incident ", "There may be hazards associated with first aid procedures or a rescue. Example: moving a heavy casualty could place the first aider at risk of injury"]},
+    {"header":  "Personal Protective Equipment"},
+    {"paragraph": "Personal Protective Equipment (PPE) is clothing and equipment used to protect the first aider and to minimize the risks of health and safety hazards when in contact with a casualty. PPE can be gloves, a pocket mask used for ventilations, a helmet, eye protection, safety boots, etc."},
+    {"paragraph":  "Use a face mask or shield when providing artificial respiration or CPR. Always follow the manufacturer’s directions for disinfecting and cleaning reusable items. Single-use masks, one-way valves, and gloves are disposed of by double bagging with other contaminated articles. If used in the workplace, follow provincial/territorial and/or company protocols for disposal of hazardous items. "},
+    {"paragraph":  "Disposable gloves prevent direct hand contact between the first aider and the casualty. Wear gloves when you might touch blood, bodily fluids, tissue or anything that has come in contact with one of these. If you tear a glove, wash your hands as soon as possible, and put on a new pair. Dispose of contaminated gloves by sealing them in a plastic bag and double-bagging them."},
+    {"image": "image_gloves"}
   ],
   "Help at the Emergency Scene" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"paragraph": "Bystanders should be asked to leave unless asked to stay and assist. Other first aiders may offer to help. Identify yourself and accept their assistance. If someone is more qualified to handle the situation, you may ask that person to take control."},
+    {"paragraph": "First responders include ambulance personnel, police officers and firefighters. They will take charge of the scene as soon as they arrive. "},
+    {"paragraph": "Other authorities may be called to the scene (e.g. an electrical utility crew may arrive if there are downed power lines). Identify yourself and continue giving first aid."},
+    {"paragraph": "Off-duty doctors, nurses and other health professionals may identify themselves and offer to help. "}
   ],
   "Signs and Symptoms and Mechanism of Injury" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"paragraph": "When referring to injuries, first aiders need to understand signs and symptoms."},
+    {"points": ["A sign is something we can see, feel, hear or smell (e.g. bleeding, bruising, agonal breathing, skin discolouration). ", "A symptom is something the casualty is feeling (e.g. nauseous, weakness, pain) and must tell you. Mechanism of injury encompasses both what happened to the casualty, and how the injury has affected the casualty. It identifies the cause of the injury. "]},
+    {"paragraph": "Mechanisms of injury that require an ambulance right away: "},
+    {"points": ["A fall from 6.5 meters (20 feet) or more ", "A vehicle collision with signs of a severe impact ", "Severe damage to the inside of the vehicle, a bent steering wheel, or a broken windshield ", "Casualty was thrown from a vehicle", "The vehicle has rolled over ", "Casualty was struck by a vehicle ", "Crush Injuries"]},
+    {"header":  "Signs and Symptoms"},
+    {"image":  "image_ss_table"},
+    {"header":  "The Importance of Medical Help"},
+    {"paragraph": "Unless an injury is very minor, you should always make sure the casualty receives medical help following first aid. Medical help may be given at the scene, en route to a medical facility, or in a hospital. Know the EMS telephone number for your community. This is often 9-1-1 in urban areas. Calling for medical help is important. The period immediately following a severe, life-threatening injury is known as the golden hour. This time is “golden” because the faster a casualty makes it to a hospital emergency room or operating room, the better the chances of survival and recovery"}
   ],
   "Injuries and Illnesses" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"header": "Injuries"},
+    {"paragraph": "When something from outside the body damages tissues, the damaged area is called an injury. How serious an injury is depends on: "},
+    {"points": ["What tissues are injured—an injury to a vital organ, or tissues of a vital system, like the nervous system, is serious", "How bad the injury is—for instance, a bone broken in half may not be as serious as the same bone shattered into many pieces ", "How much tissue is injured—a burned hand may be more serious than a burned finger Injuries and energy"]},
+    {"header":  "Illness"},
+    {"paragraph": "We often think of first aid in the context of injuries only. But when someone becomes very sick, the result can be a medical emergency in which first aid can save a life. \n\nSome illnesses, like heart attacks or strokes come on very fast. Other illnesses progress more slowly and it can be hard to decide exactly when you have a medical problem that calls for a doctor’s attention. Get medical help when any of the following is present:"},
+    {"points": ["Sudden severe pain in any part of the body ", "Sudden changes in vision, headache or dizziness ", "Severe or persistent diarrhea or vomiting", "Sudden weakness or slurred/jumbled speech", "Persistent high temperature ", "Changes in level of consciousness ", "Rash of unknown origin ", "Repeated fainting ", "Obvious depression, suicide threats or attempts ", "Whenever you are very worried about yourself or someone in your care "]},
+    {"paragraph": "If the casualty is an infant, the following are also reasons to get medical help (in addition to the reasons above): "},
+    {"points": ["The baby has had a seizure", "The baby is blue or very pale ", "You think the baby is having trouble breathing ", "The baby cries a lot, or won’t stop crying"]}
   ]
 }

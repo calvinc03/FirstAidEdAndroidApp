@@ -32,23 +32,23 @@ class PracticeFragment : Fragment() {
         ch7_quiz_tab.setOnClickListener { updateDropdown(it) }
         ch8_quiz_tab.setOnClickListener { updateDropdown(it) }
 
-        ch1_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_1_quiz.json")}
-        ch2_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_2_quiz.json")}
-        ch3_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_3_quiz.json")}
-        ch4_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_4_quiz.json")}
-        ch5_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_5_quiz.json")}
-        ch6_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_6_quiz.json")}
-        ch7_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_7_quiz.json")}
-        ch8_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_8_quiz.json")}
+        ch1_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_1_quiz")}
+        ch2_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_2_quiz")}
+        ch3_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_3_quiz")}
+        ch4_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_4_quiz")}
+        ch5_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_5_quiz")}
+        ch6_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_6_quiz")}
+        ch7_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_7_quiz")}
+        ch8_begin_quiz_btn.setOnClickListener {(activity as MainActivity).navigateToQuizQuestions("chapter_8_quiz")}
 
-        ch1_review_ans_btn.setOnClickListener {}
-        ch2_review_ans_btn.setOnClickListener {}
-        ch3_review_ans_btn.setOnClickListener {}
-        ch4_review_ans_btn.setOnClickListener {}
-        ch5_review_ans_btn.setOnClickListener {}
-        ch6_review_ans_btn.setOnClickListener {}
-        ch7_review_ans_btn.setOnClickListener {}
-        ch8_review_ans_btn.setOnClickListener {}
+        ch1_review_ans_btn.setOnClickListener {(activity as MainActivity).navigateToReviewQuestions("chapter_1_quiz")}
+        ch2_review_ans_btn.setOnClickListener {(activity as MainActivity).navigateToReviewQuestions("chapter_2_quiz")}
+        ch3_review_ans_btn.setOnClickListener {(activity as MainActivity).navigateToReviewQuestions("chapter_3_quiz")}
+        ch4_review_ans_btn.setOnClickListener {(activity as MainActivity).navigateToReviewQuestions("chapter_4_quiz")}
+        ch5_review_ans_btn.setOnClickListener {(activity as MainActivity).navigateToReviewQuestions("chapter_5_quiz")}
+        ch6_review_ans_btn.setOnClickListener {(activity as MainActivity).navigateToReviewQuestions("chapter_6_quiz")}
+        ch7_review_ans_btn.setOnClickListener {(activity as MainActivity).navigateToReviewQuestions("chapter_7_quiz")}
+        ch8_review_ans_btn.setOnClickListener {(activity as MainActivity).navigateToReviewQuestions("chapter_8_quiz")}
     }
 
     private fun updateDropdown(view : View) {

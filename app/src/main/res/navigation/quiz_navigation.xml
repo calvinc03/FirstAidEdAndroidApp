@@ -8,7 +8,14 @@
         android:id="@+id/quizCompleteFragment"
         android:name="com.calvinchen.firstaidlearning.QuizCompleteFragment"
         android:label="fragment_quiz_complete"
-        tools:layout="@layout/fragment_quiz_complete" />
+        tools:layout="@layout/fragment_quiz_complete" >
+        <argument
+            android:name="score"
+            app:argType="string" />
+        <argument
+            android:name="chapter"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/quizQuestionsFragment"
         android:name="com.calvinchen.firstaidlearning.QuizQuestionsFragment"

@@ -1,62 +1,63 @@
 {
   "Roles and Responsibilities" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"title": ""},
+    {"header": ""},
+    {"paragraph": ""},
+    {"points": ["", "", ""]},
+    {"header":  ""},
+    {"paragraph": ""},
+    {"points": ["", "", "", ""]},
+    {"image":  ""}
   ],
   "First Aid and The Law" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"title": ""},
+    {"header": ""},
+    {"paragraph": ""},
+    {"points": ["", "", ""]},
+    {"header":  ""},
+    {"paragraph": ""},
+    {"points": ["", "", "", ""]},
+    {"image":  ""}
   ],
   "Safety and Personal Protection" :  [
     {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"title": ""},
+    {"header": ""},
+    {"paragraph": ""},
+    {"points": ["", "", ""]},
+    {"header":  ""},
+    {"paragraph": ""},
+    {"points": ["", "", "", ""]},
+    {"image":  ""}
   ],
   "Help at the Emergency Scene" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"title": ""},
+    {"header": ""},
+    {"paragraph": ""},
+    {"points": ["", "", ""]},
+    {"header":  ""},
+    {"paragraph": ""},
+    {"points": ["", "", "", ""]},
+    {"image":  ""}
   ],
   "Signs and Symptoms and Mechanism of Injury" :  [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"title": ""},
+    {"header": ""},
+    {"paragraph": ""},
+    {"points": ["", "", ""]},
+    {"header":  ""},
+    {"paragraph": ""},
+    {"points": ["", "", "", ""]},
+    {"image":  ""}
   ],
   "Injuries and Illnesses" : [
-    {"title": "Roles and Responsibilities"},
-    {"header": "What is first aid?"},
-    {"paragraph": "First aid is emergency help given to an injured or suddenly ill person using readily available materials. A person who takes charge of an emergency scene and gives first aid is called a first aider. The injured or ill person is called a casualty. The three priorities of first aid, in order of importance, are to: "},
-    {"points": ["Preserve life", "Prevent the illness or injury from becoming worse ", "Promote Recovery"]},
-    {"header":  "What can a first aider do?"},
-    {"paragraph": "First aiders do not diagnose or treat injuries or illnesses (except, perhaps, when they are very minor)—this is what medical doctors do. A first aider suspects injuries and illnesses, and gives first aid at the scene. Besides giving first aid, it is important to:"},
-    {"points": ["Protect the casualty’s belongings", "Keep unnecessary people away", "Reassure family or friends of the casualty", "Clean up the emergency scene and work to correct any unsafe conditions that may have caused the injuries in the first place"]},
-    {"image":  "@drawable/ic_check"}
+    {"title": ""},
+    {"header": ""},
+    {"paragraph": ""},
+    {"points": ["", "", ""]},
+    {"header":  ""},
+    {"paragraph": ""},
+    {"points": ["", "", "", ""]},
+    {"image":  ""}
   ]
 }
