@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:fillViewport="true"
-    android:background="@color/color_bg">
+    android:background="@color/color_bg"
+    android:paddingBottom="30dp">
 <LinearLayout
     android:id="@+id/review_activity"
     android:layout_width="match_parent"
@@ -14,6 +15,16 @@
     android:layout_marginBottom="25dp"
     android:orientation="vertical"
     tools:context=".ReviewAnswersActivity">
+
+    <Button
+        android:id="@+id/begin_quiz_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/button_chapters"
+        android:text="Begin Quiz"/>
 
     <TextView
         android:id="@+id/best_score"
@@ -25,7 +36,7 @@
         android:gravity="right"
         android:text="Your Best Score: --/--"
         android:textColor="@color/colorAccent" 
-        android:visibility="gone"/>
+        android:visibility="visible"/>
 
     <TextView
         android:id="@+id/most_recent_results_tv"
@@ -36,18 +47,7 @@
         android:layout_marginRight="20sp"
         android:text="Your Most Recent Attempt:"
         android:textColor="@color/colorAccent"
-        android:visibility="gone"/>
-    
-    <TextView
-        android:id="@+id/quiz_not_completed_msg"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Complete a quiz to see your results"
-        android:textSize="26sp"
-        android:textColor="@color/colorAccent"
         android:visibility="visible"/>
+
 </LinearLayout>
 </ScrollView>

@@ -26,7 +26,7 @@
                 android:value="com.calvinchen.firstaidlearning.MainActivity" />
         </activity>
         <activity
-            android:name=".QuizQuestionsActivity"
+            android:name=".ReviewAnswersActivity"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait">
             <meta-data
@@ -34,14 +34,14 @@
                 android:value="com.calvinchen.firstaidlearning.MainActivity" />
         </activity>
         <activity
-            android:name=".ReviewAnswersActivity"
+            android:name=".QuizQuestionsActivity"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.calvinchen.firstaidlearning.MainActivity" />
-
+                android:value="com.calvinchen.firstaidlearning.ReviewAnswersActivity" />
         </activity>
+
     </application>
 
 </manifest>

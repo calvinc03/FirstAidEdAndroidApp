@@ -1,63 +1,81 @@
 {
-  "Roles and Responsibilities" : [
-    {"title": ""},
-    {"header": ""},
-    {"paragraph": ""},
-    {"points": ["", "", ""]},
-    {"header":  ""},
-    {"paragraph": ""},
-    {"points": ["", "", "", ""]},
-    {"image":  ""}
+  "Diabetes" : [
+    {"paragraph": "Diabetes is a condition in which there is either not enough insulin in the blood or there is enough insulin but the cells cannot use the insulin properly. Insulin is a hormone produced in the pancreas that regulates the amount of glucose in the blood. With diabetes, sugar builds up in the blood and the cells don’t get the energy they need or the blood sugar levels can go abnormally low.\n A diabetic emergency occurs when there is too much or too little insulin in the blood."},
+    {"points": ["Hypoglycemia—not enough sugar, too much insulin", "Hyperglycemia—too much sugar, not enough insulin"]},
+	{"image":  "image_diabetes"},
+	{"header":  "First aid for diabetic emergencies"},
+    {"points": ["Perform a scene survey, then do a primary survey.", "If the casualty is conscious, ask what is wrong.", "A diabetic casualty may have glucose tablets for treating hypoglycemia. Help them take their tablets if they are able to respond and swallow; repeat if symptoms persist after 10 minutes.", "If glucose tablets are not available, use other types of dietary sugars", "Give ongoing casualty care. Send for medical help"]}
   ],
-  "First Aid and The Law" : [
-    {"title": ""},
-    {"header": ""},
-    {"paragraph": ""},
-    {"points": ["", "", ""]},
-    {"header":  ""},
-    {"paragraph": ""},
-    {"points": ["", "", "", ""]},
-    {"image":  ""}
+  "Seizures and convulsions" : [
+    {"paragraph": "A seizure is caused by abnormal electrical activity in the brain. In a partial seizure, only part of the brain is affected. The person may experience a tingling or twitching in one area of the body. In a generalized seizure, the whole brain is affected and the person loses consciousness and may have convulsions. A convulsion is an abnormal muscle contraction, or series of muscle contractions, that the person cannot control. \nEpilepsy is a disorder of the nervous system characterized by seizures. With epilepsy, the person may know that a seizure is about to occur because of a brief sensation they experience, called an aura.\nA typical generalized seizure has two phases:"},
+    {"points": ["“tonic” phase - a sudden loss of consciousness causing the person to fall. The person’s body becomes rigid for up to a minute during which the face and neck may turn bluish.", "“clonic” phase - convulsions occur, breathing is noisy, frothy saliva may appear around the mouth and the teeth may grind."]},
+    {"paragraph": "When the seizure is over, the muscles gradually relax and the person regains consciousness. After the seizure, the person may not remember what happened. They may appear dazed and confused, and feel exhausted and sleepy."},
+	{"header":  "First aid for a seizure or convulsion"},
+	{"paragraph": "First aid for a seizure aims to protect the casualty from injury during convulsions and to keep the airway open while the casualty is unconscious. "},
+	{"points": ["Perform a scene survey. Make the area safe—clear away objects that could cause injury."]},
+	{"paragraph": "During convulsions:"},
+	{"points": ["Do not restrict the casualty’s movements. Protect them from injury", "Carefully loosen tight clothing, especially around the neck.", "Place something soft under the head.", "Do not try to put anything in the mouth, between the teeth or to hold the tongue. Perform a primary survey after convulsions are finished.", "Place the unconscious casualty into the recovery position and clear any fluids from the mouth or nose.", "Do a secondary survey to see if the casualty was injured during the seizure; give first aid for any injuries.", "Give ongoing casualty care, monitoring breathing, keeping the casualty warm and allowing them to rest.", "Don’t give the casualty any liquids during or immediately after a seizure"]},
+	{"paragraph": "Call for medical help if:"},
+	{"points": ["The casualty is unconscious for more than five minutes, or has a second major seizure within a few minutes", "This is the person’s first seizure or the cause of the seizure is unknown (ask the casualty when they regain consciousness)"]}
   ],
-  "Safety and Personal Protection" :  [
-    {"title": "Roles and Responsibilities"},
-    {"title": ""},
-    {"header": ""},
-    {"paragraph": ""},
-    {"points": ["", "", ""]},
-    {"header":  ""},
-    {"paragraph": ""},
-    {"points": ["", "", "", ""]},
-    {"image":  ""}
+  "Cold-related injuries" :  [
+    {"header": "Hypothermia"},
+    {"paragraph": "The normal temperature of the body’s core is 37° C (98.6° F). If the body core temperature drops more than two degrees, the body’s tissues cannot function properly. This state of generalized cooling is called hypothermia."},
+	{"image":  "image_hypothermia1"},
+	{"header": "First aid for hypothermia"},
+	{"points": ["Perform a scene survey and a primary survey", "Take measures to prevent further heat loss", "Give the casualty warm sweet drinks if they are conscious", "Give ongoing casualty care, get medical help."]},
+	{"image":  "image_hypothermia2"},
+	{"header": "Cautions in first aid for hypothermia"},
+	{"points": ["Handle the casualty very gently and keep them horizontal if possible. Cold affects the electrical impulses that make the heartbeat. As a result, the hypothermic casualty’s heart beat is very delicate. The heart can stop with rough handling of the casualty", "Don’t give the casualty any alcohol, coffee, or other drinks with caffeine, or let them smoke —these can increase heat loss.", "Don’t rub the casualty’s body to improve circulation", "Don’t give a casualty in moderate hypothermia anything to drink"]},
+	{"header":  "Frostbite"},
+	{"paragraph": "Frostbite refers to the freezing of tissues when exposed to temperatures below zero. It is a progressive injury with two stages: superficial frostbite and deep frostbite."},
+	{"image":  "image_frostbite"},
+	{"header":  "First aid for superficial frostbite"},
+	{"points": ["Gradually rewarm the frostbitten part with body heat", "Take measures to prevent these areas from freezing again—either stop the activity or dress more appropriately"]},
+	{"header": "First aid for deep frostbite"},
+	{"paragraph": "Deep frostbite needs medical help as soon as possible."},
+	{"points": ["Prevent further heat loss from the frozen part and the rest of the body. Handle the frozen tissue gently to prevent tissue damage.", "Get medical help. If the feet or legs are frozen, transport using a rescue carry or stretcher if possible", "If medical help is not available, you are in a safe, warm place and there is no danger of the part refreezing, then thaw the frozen part:", "Gently remove the clothing from the affected part","Find a container that is large enough to hold the entire frozen part and fill this with water that feels warm when you put your elbow in it (about 40° C)","Remove any jewellery and put the whole frozen part in the water. Keep adding warm water to keep the water in the container at a constant temperature", "Keep the part in the water until it is pink or does not improve any more","Gently dry the affected part. Put sterile dressings over wounds and between fingers or toes","Keep the part elevated and warm. Do not break any blisters that form"]},
+	{"paragraph": "A deeply frostbitten extremity will be very painful as it defrosts. There will be swelling and perhaps tissue loss. For that reason it is best done at a medical facility"}
   ],
-  "Help at the Emergency Scene" :  [
-    {"title": ""},
-    {"header": ""},
-    {"paragraph": ""},
-    {"points": ["", "", ""]},
-    {"header":  ""},
-    {"paragraph": ""},
-    {"points": ["", "", "", ""]},
-    {"image":  ""}
+  "Heat-related injuries" :  [
+    {"header": "Heat cramps"},
+    {"paragraph": "Heat cramps are painful muscle cramps, usually in the legs and abdomen, caused by losing too much water and electrolytes through sweating. Heat cramps are usually caused by heavy exercise or physical work in a hot environment. The casualty will complain of cramps and show signs of excessive sweating, though in a dry environment, the casualty may not seem to be sweating because the sweat evaporates so quickly."},
+	{"header":  "First aid for heat cramps"},
+	{"points": ["Place the casualty at rest in a cool place", "Give the conscious casualty water or drinks with electrolytes and carbohydrates, as much as they want.", "Gentle massage can provide relief for cramps"]},
+	{"image":  "image_heat_cramp_treatment"},
+	{"header":  "Heat exhaustion"},
+    {"paragraph": "Heat exhaustion is more serious than heat cramps. The casualty has lost a lot of fluids through sweating. Circulation is affected as the blood flows away from the major organs and pools in the blood vessels just below the skin.\nSigns and symptoms of heat exhaustion:"},
+    {"points": ["Excessive sweating and dilated pupils", "Casualty may complain of dizziness, blurred vision, headache or cramps", "Signs of shock, including: cold, clammy skin; weak, rapid pulse; rapid, shallow breathing; vomiting and unconsciousness", "Dry mouth and thirst (signs of dehydration)", "Irritability or aggressive behaviour"]},
+	{"header": "First aid for heat exhaustion"},
+	{"paragraph": "If the casualty is conscious:"},
+	{"points": ["Give the conscious casualty water or drinks with electrolytes and carbohydrates; if the casualty vomits, don’t give anything by mouth and get medical help right away", "Place them at rest on their back in a cool place", "Apply cool wet towels or cold packs to the body core, around the head, and under the arms"]},
+	{"paragraph": "If the casualty is unconscious:"},
+	{"points": ["Place them in the recovery position", "Get medical help right away"]},
+	{"header":  "Heatstroke (hyperthermia or sunstroke)"},
+	{"paragraph": "Heatstroke is a life-threatening condition where the body’s temperature rises far above normal. It is caused by prolonged exposure in a hot, humid, and perhaps poorly ventilated environment.\nSigns and symptoms of heatstroke:"},
+	{"points": ["Body temperature rapidly rises to 40°C or higher—the casualty is hot to the touch", "The pulse is rapid and full but gets weaker in later stages", "Breathing is noisy", "Skin is flushed, hot and dry in classic heatstroke, and flushed, hot and sweaty in exertional heatstroke", "Vomiting, convulsions, unconsciousness may occur"]},
+	{"header": "First aid for heatstroke"},
+	{"points": ["Perform a scene survey and a primary survey. Lowering body temperature is the most urgent first aid for heatstroke.", "Move the casualty to a cool, shaded place", "Remove outer clothing and immerse the casualty in cool water up to the chin", "When their body feels cool to touch, cover with a dry sheet. Put the conscious casualty into the shock position and the unconscious casualty into the recovery position."]}
   ],
-  "Signs and Symptoms and Mechanism of Injury" :  [
-    {"title": ""},
-    {"header": ""},
-    {"paragraph": ""},
-    {"points": ["", "", ""]},
-    {"header":  ""},
-    {"paragraph": ""},
-    {"points": ["", "", "", ""]},
-    {"image":  ""}
+  "Poisoning" :  [
+    {"paragraph": "A poison is any substance that can cause illness or death when absorbed by the body. Poisons are classified according to how they enter the body:"},
+    {"points": ["Swallowed poisons—through the mouth","Inhaled poisons—through the lungs", "Absorbed poisons—through the skin and mucous membranes", "Injected poisons—through a hollow needle or needle-like device"]},
+    {"paragraph": "An important part of the first aid for poisoning is telephoning your local or provincial poison information centre for advice on what to do. Before calling, the first aider must quickly gather as much information about the incident as possible. Use the history of the scene and the signs and symptoms of the casualty to gather the information you’ll need to answer the questions asked by the poison information centre."},
+	{"header": "History of the scene"},
+	{"paragraph": "You need to know four basic facts to give appropriate first aid for poisoning:"},
+	{"points": ["What poison was taken", "How the poison entered the body", "How much poison was taken", "When the poison was taken"]},
+	{"header": "Signs and symptoms of poisoning"},
+	{"points": ["Change in the level of consciousness", "Difficulty breathing (usually shallow and rapid)", "Change in the heart rate", "Swallowed poisons usually cause nausea, abdominal cramps, diarrhea and vomiting.", "Poisons absorbed through the skin may cause a reddening of the skin, blisters, swelling and burns", "Poisons injected through the skin usually irritate the point of entry", "Inhaled poisons may cause coughing, chest pain and difficulty breathing"]},
+	{"header": "General first aid for poisoning"},
+	{"points": ["Perform a scene survey. Do a primary survey. Gather any information about the suspected poison.", "If the casualty is responsive, call the poison information centre in your region and follow their advice", "If the casualty is unresponsive or having a seizure, call for medical help.", "If the casualty is unresponsive but breathing, place in the recovery position", "Give ongoing casualty care until medical help takes over."]}
   ],
-  "Injuries and Illnesses" : [
-    {"title": ""},
-    {"header": ""},
-    {"paragraph": ""},
-    {"points": ["", "", ""]},
-    {"header":  ""},
-    {"paragraph": ""},
-    {"points": ["", "", "", ""]},
-    {"image":  ""}
+  "Emergency childbirth and miscarriage" : [
+	{"header": "Emergency delivery"},
+	{"points": [" Get the materials you will need to deliver the baby and the placenta."]},
+	{"image":  "image_towels"},
+	{"points": ["Place the mother on her back with knees bent and head supported, unless she prefers another position. Cover her with sheets so you can easily lift them to check on the progress of labour", "When you can see the baby’s head, tell the mother to push with the contractions.", "Usually the head is born first and if it comes out too quickly, the baby could be injured. As the head comes out, tell the mother to control her pushing. Support the baby as it is born, but be careful. A new-born baby has a very slippery whitish coating—handle the baby gently, firmly and carefully", "Clear all the fluids obstructing the baby’s airway", "Most babies will cry right away. When they do, they become pink as they start breathing.", "Once the baby is breathing, pat them dry with a towel, being careful not to remove the slippery coating. Wrap the baby in a dry towel or blanket to keep them warm", "Wait for the placenta to be delivered. This usually happens within twenty minutes of the baby’s birth, but don’t be surprised if it takes longer", "There may be some bleeding from the vagina after the delivery of the placenta. This is normal, and can usually be controlled by firmly massaging the uterus."]},
+	{"header":  "First aid for miscarriage"},
+	{"paragraph": "Your main concern in first aid for miscarriage is the shock caused by severe bleeding. The casualty may be very distressed."},
+	{"points": ["Perform a scene survey and a primary survey. Call for medical help.", "Give first aid for shock—place the woman on her back, or on her left side", "Ensure privacy. Reassure her and give her emotional support.", "Keep any evidence of tissue and blood loss (bloody sheets, clothing, etc.). Send this with the woman to medical help for examination by the doctor", "Give ongoing casualty care."]}
   ]
 }

@@ -1,11 +1,17 @@
 [
-  ["What is your favourite animal?", null, "xd", "lmao", "omegalul", "idk", 3],
-  ["What is your fate animal?", "@drawable/ic_check", "xd", "lmao", "omegalul", "idk", 2],
-  ["What i youfaurite animal?", null, "xd", "lmao", "omegalul", "idk", 5],
-  ["Whatis your faourite animal?", null, "xd", "lmao", "omegalul", "idk", 3],
-  ["What is yourfaurie animal?", "@drawable/ic_check", "xd", "lmao", "omegalul", "idk", 3],
-  ["Whatis yur favouritenimal?", null, "xd", "lmao", "omegalul", "idk", 2],
-  ["What is your favourite animal?", null, "xd", "lmao", "omegalul", "idk", 4],
-  ["Whats yourfavourite animal?", null, "xd", "lmao", "omegalul", "idk", 4],
-  ["What is your favouritenimal?", null, "xd", "lmao", "omegalul", "idk", 5]
+  ["Which one of the following is not a Sign and Symptom for a fracture?", null, "Pus", "Swelling and bruising", "Unnatural Movement", "Crepitus", 2],
+  ["A sprain is...", null, "a medical condition", "an injury to a ligament", "an injury to a joint", "an injury to a bone", 3],
+  ["Which one of the following is not a Sign and Symptom for a sprain?", null, "Swelling and Discolouration", "Loss of Function", "Open Wound", "Pain", 4],
+  ["Always suspect __________ injury if the casualty is unconscious and the history is unknown", null, "seizures", "choking", "cardiac arrest", "head/spinal", 5],
+  ["What is the correct action for immobilizing a fractured pelvis?", null, "Stabilize the pelvic area with heavy padding", "Provide comfort for the pelvis instead", "Utilize splints to support the pelvic area", "Stabilize the pelvic area with multiple broad bandages", 2],
+  ["Which sling is used for a chest injury?", null, "Arm Sling", "St. John tubular sling", "Head and Spinal support", "Arm splint", 3],
+  ["A flail chest is...", null, "when the chest tightens and the pain moves up to the jaw", "the casualty experiences breathing difficulties from blunt injuries to the chest", "when several ribs in the same area are broken in more than one place", "a normal chest injury", 4],
+  ["What is not a quality to consider when looking for a good splint?", null, "Length", "Well padded for support", "Rigid enough to support the limb", "Adhesiveness with the bandages", 5],
+  ["What is the main difference between closed and open fractures", null, "open fractures have an open wound", "slings are used differently", "splints are used only for open fractures", "closed fractures require completely different treatment", 2],
+  ["Which of the following situations is it not appropriate to use an arm sling?", null, "Wrist Fracture", "Collarbone Fracture", "Upper Arm Fracture", "Lower Arm Fracture", 3],
+  ["Which of the following situations is it not necessary to use an arm splint?", null, "Lower Arm Fracture", "Wrist Fracture", "Upper Arm Fracture", "Elbow Fracture", 4],
+  ["For which injury does the treatment in the image show?", "question_chapter6_elbow_fracture", "Wrist fracture", "Lower Arm fracture", "Upper Arm fracture", "Elbow fracture", 5],
+  ["For which injury does the treatment in the image show?", "image_fracture_femur1", "Femur fracture", "Lower Leg fracture", "Ankle fracture", "Knee fracture", 2],
+  ["For which injury does the treatment in the image show?", "image_sprain_ankle", "Femur fracture", "Lower Leg fracture", "Ankle fracture", "Knee fracture", 4],
+  ["For which injury does the treatment in the image show?", "image_fracture_lower_leg", "image_sprain_ankle", "Femur fracture", "Lower Leg fracture", "Ankle fracture", "Knee fracture", 3]
 ]

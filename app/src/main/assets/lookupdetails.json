@@ -1,0 +1,302 @@
+[
+  {
+	"chapter" : "chapter_3",
+	"sub_chap": "Severe Allergic Reaction",
+	"info" : [
+	  {
+		"title": "Allergic Reaction (Anaphylaxis)",
+		"Signs and Symptoms": ["Itchy, flushed skin", "Sneezing, runny nose", "Swelling of the airway", "Nausea, vomiting"],
+		"First Aid": ["Position casualty at rest", "If casualty has medication, help them to take it", " Monitor the ABCs", "Get medical help"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_4",
+	"sub_chap": "Angina and heart attack",
+	"info" : [
+	  {
+		"title" : "Angina",
+		"Signs and Symptoms": ["Denial, sense of impending doom", "Heaviness, tightness in chest", "Indigestion, aching jaw", "Pale skin, sweating"],
+		"First Aid": ["Position casualty at rest", "If casualty has medication, help them to take it", "Monitor the ABCs", "Get medical help"]
+	  },
+	  {
+		"title" : "Heart Attack",
+		"Signs and Symptoms": ["Denial, sense of impending doom","Heaviness, tightness in chest", "Indigestion, aching jaw", "Pale skin, sweating", "Unconsciousness", "Stopped breathing,"],
+		"First Aid": ["If conscious, position casualty at rest", "If casualty has medication, help them to take it", "Monitor the ABCs", "Get medical help", "If unresponsive and not breathing, get medical help, nand send for AED","Begin CPR"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_3",
+	"sub_chap": "Asthma",
+	"info" : [
+	  {
+		"title": "Asthma",
+		"Signs and Symptoms": [
+		  "Shortness of breath with coughing or wheezing", "Sitting upright, trying to breathe", "Blue colour to face (cyanosis)",
+		  "Anxiety, tightness in chest"
+		],
+		"First Aid": ["Position casualty for comfort sitting or semi-sitting", "Assist with medication", "Monitor the ABCs", "Get medical help"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_5",
+	"sub_chap": "Bites and stings",
+	"info" : [
+	  {
+		"title" : "Bites and stings",
+		"Signs and Symptoms": ["Pain at site", "Heat and swelling at site", "Redness, itching", "Rash or bumps on skin"],
+		"First Aid": ["Position casualty at rest", "Remove stinger if appropriate", "Clean affected area", "Monitor the ABCs"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_5",
+	"sub_chap": "Minor Wound Care",
+	"info" : [
+	  {
+		"title": "Internal Bleeding",
+		"Signs and Symptoms": ["No obvious wound","Blood from ears, nose, in urine/stool","Bloodshot or black eye(s)","Blood coughed up or in vomitus"],
+		"First Aid": ["Shock position, if injuries permit","If thirsty, moisten lips","Monitor the ABCs","Get medical help"]
+	  },
+	  {
+		"title": "External Bleeding",
+		"Signs and Symptoms": ["Obvious wound","External blood","Cold, clammy skin","Restlessness, apprehension","Faintness, dizziness"],
+		"First Aid": ["Apply pressure","Position casualty at rest","Apply dressings and bandages","Check circulation before and after bandaging"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_5",
+	"sub_chap": "Burns",
+	"info" : [
+	  {
+		"title": "Burns",
+		"Signs and Symptoms": [
+		  "Skin red to pearly white or charred", "Pain in mild cases, no pain if severe", "Blisters", "Moist skin, dry leathery if severe"
+		],
+		"First Aid": ["Position casualty at rest", "Cool the affected area", "Apply dressings and bandages", "Check circulation"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_3",
+	"sub_chap": "Choking",
+	"info" : [
+	  {
+		"title": "Mild Obstruction",
+		"Signs and Symptoms": [
+		  "Able to speak", "Signs of distress", "Red face", "Not able to speak", "Weak or no coughing", "Grey face, blue lips, ears", ""
+		],
+		"First Aid": [
+		  "Stay with casualty", "Encourage casualty to cough", "If obstruction not cleared, get medical help",
+		  "Position yourself supporting the casualty", "Give 5 back blows, 5 abdominal thrusts", "Be prepared for loss of consciousness"
+		]
+	  },
+	  {
+		"title": "Severe Obstruction",
+		"Signs and Symptoms": [
+		  "Able to speak", "Signs of distress", "Red face", "Not able to speak", "Weak or no coughing", "Grey face, blue lips, ears", ""
+		],
+		"First Aid": [
+		  "Stay with casualty", "Encourage casualty to cough", "If obstruction not cleared, get medical help",
+		  "Position yourself supporting the casualty", "Give 5 back blows, 5 abdominal thrusts", "Be prepared for loss of consciousness"
+		]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_6",
+	"sub_chap": "Head and spinal injuries",
+	"info" : [
+	  {
+		"title": "Concussion",
+		"Signs and Symptoms": ["Partial or complete loss of consciousness", "Shallow breathing, nausea", "Pale, sweating, headache"],
+		"First Aid": ["If you suspect head/spinal injury, do not move the casualty", "Monitor the ABCs", "Get medical help"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_7",
+	"sub_chap": "Diabetes",
+	"info" : [
+	   {
+		"title" : "Hypoglycemia (needs sugar)",
+		"Signs and Symptoms": [
+		  "Sweaty, pale, cold", "Headache, trembling", "Confusion, irritable, aggressive"
+		],
+		"First Aid": [
+		  "Position casualty at rest", "Give sugar", "Monitor the ABCs", "If no improvement, get medical help", "Position casualty at rest",
+		  "Monitor the ABCs"
+		]
+	  },
+	   {
+		"title": "Hyperglycemia (needs insulin)",
+		"Signs and Symptoms": [
+		  "Flushed, dry, warm", "Drowsy, becoming unconscious", "Thirsty, breath smells like nail polish"
+		],
+		"First Aid": [
+		  "Position casualty at rest",
+		  "If unsure, whether hyper or hypo, give sugar",
+		  "Monitor the ABCs",
+		  "Get medical help"
+		]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_5",
+	"sub_chap": "First Aid for Contusions and Embedded Objects",
+	"info" : [
+	  {
+		"title": "Embedded object",
+		"Signs and Symptoms": ["Obvious wound", "Object visible in wound", "Bleeding at wound site"],
+		"First Aid": [
+		  "Do not remove embedded object", "Build up dressings around object", "Apply dressings without pressure on object", "Bandage get medical help"
+		]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_7",
+	"sub_chap": "Emergency childbirth and miscarriage",
+	"info" : [
+	   {
+		"title" : "Emergency childbirth",
+		"Signs and Symptoms": [
+		  "Longer and stronger contractions", "Mother tells you the baby is coming", "Straining, bearing down", "Feeling she has to have bowel movement"
+		],
+		"First Aid": ["Position casualty at rest", "Keep casualty warm", "Place sanitary napkin or clean pad for bleeding", "Get medical help"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_7",
+	"sub_chap": "Cold-related injuries",
+	"info" : [
+	 {
+		"title": "Frostbite",
+		"Signs and Symptoms": ["White waxy skin", "Skin firm but soft underneath", "Skin becomes cold and hard", "Painful at first, then numb"],
+		"First Aid": ["Get casualty out of cold", "Position casualty", "If frostbite is superficial, rewarm the area", "Give first aid for wounds"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_6",
+	"sub_chap": "Head and spinal injuries",
+	"info" : [
+	  {
+		"title" : "Head/spinal injury",
+		"Signs and Symptoms": ["Confused, lightheaded", "Mechanism of injury to suggest", "Pale, cold, clammy"],
+		"First Aid": ["Tell casualty not to move", "Monitor the ABCs", "Get medical help"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_7",
+	"sub_chap": "Cold-related injuries",
+	"info" : [
+	  {
+		"title": "Hypothermia",
+		"Signs and Symptoms": [
+		  "Shivering gets worse, then stops", "Breathing slows, and may stop", "Confused, sleepy, irrational", "May lose consciousnes"
+		],
+		"First Aid": ["Get casualty out of cold", "Position casualty at rest", "Only rewarm a casualty with mild hypothermia", "Get medical help"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_7",
+	"sub_chap": "Heat-related injuries",
+	"info" : [
+	  {
+		"title": "Heat exhaustion",
+		"Signs and Symptoms": [
+		  "Excessive sweating, dilated pupils", "Dizziness, blurred vision, headache, cramps", "Cold, clammy skin, shallow breathing",
+		  "Possible loss of consciousness"
+		],
+		"First Aid": ["Get casualty out of heat", "Give as much to drink as they will take Remove excessive clothing", "Monitor the ABCs"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_7",
+	"sub_chap": "Heat-related injuries",
+	"info" : [
+	  {
+		"title": "Heatstroke",
+		"Signs and Symptoms": [
+		  "Body temperature hot to touch", "Skin flushed, hot and may be wet or dry", "Restless, headache, dizziness",
+		  "Vomiting, convulsions, unconsciousness"
+		],
+		"First Aid": ["Cool the casualty", "Remove excess clothing", "Immersion in cold water", "Get medical help"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_7",
+	"sub_chap": "Poisoning",
+	"info" : [
+	  {
+		"title": "Swallowed Poison",
+		"Signs and Symptoms": ["nausea, vomiting","discolouration at lips, burns"],
+		"First Aid": ["Conscious casualty - call Poison Control","Unconscious casualty - get medical help", "Monitor consciousness and breathing","Monitor the ABCs"]
+	  },
+	  {
+		"title": "Absorbed Poison",
+		"Signs and Symptoms": ["Red skin, blisters, swelling, burns"],
+		"First Aid": ["If powder, brush off","Flush area with large amounts of water","Conscious casualty - call Poison Control","Unconscious casualty - get medical help", "Monitor consciousness and breathing","Monitor the ABCs"]
+	  },
+	  {
+		"title": "Injected Poison",
+		"Signs and Symptoms": ["Irritation at point of entry"],
+		"First Aid": ["Conscious casualty - call Poison Control","Unconscious casualty - get medical help", "Monitor consciousness and breathing","Monitor the ABCs"]
+	  },
+	  {
+		"title": "Inhaled Poison",
+		"Signs and Symptoms": ["Trouble breathing, chest pain"],
+		"First Aid": ["Conscious casualty - call Poison Control","Unconscious casualty - get medical help", "Monitor consciousness and breathing","Monitor the ABCs"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_7",
+	"sub_chap": "Seizures and convulsions",
+	"info" : [
+	  {
+		"title": "Seizure",
+		"Signs and Symptoms": [
+		  "Sudden cry", "Stiffening of body", "Loss of consciousness, causing casualty to fall", "Breathing irregular or stopped",
+		  "Loss of bladder or bowel control"
+		],
+		"First Aid": [
+		  "Do not interfere during seizure", "Protect casualty from injury",
+		  "When the seizure has ended, place the unconscious casualty into the recovery position", "Monitor the ABCs", "Get medical help"
+		]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_4",
+	"sub_chap": "Stroke and transient ischemic attack (TIA)",
+	"info" : [
+	  {
+		"title": "Stroke/TIA",
+		"Signs and Symptoms": ["F.A.S.T.", "Complains of sudden weakness", "Symptoms related to affected area", "Dizziness, headache"],
+		"First Aid": ["Position conscious casualty at rest", "Give nothing by mouth", "Monitor the ABCs", "Get medical help"]
+	  }
+	]
+  },
+  {
+	"chapter" : "chapter_2",
+	"sub_chap": "Scene Survey",
+	"info" : [
+	  {
+		"title": "Unconsciousness",
+		"Signs and Symptoms": ["Eyes do not open", "Does not respond to instructions", "Does not respond to touch"],
+		"First Aid": ["Get medical help", "Give first aid for injuries or illness", "Position casualty in recovery position", "Monitor the ABCs"]
+	  }
+	]
+  }
+]

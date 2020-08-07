@@ -113,20 +113,5 @@
         android:text="@string/chapter_7_title"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/ch8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="50sp"
-        android:layout_marginBottom="3dp"
-        android:gravity="center_vertical"
-        android:clickable="true"
-        android:focusable="true"
-        android:background="@drawable/button_chapters"
-        android:padding="10sp"
-        android:text="@string/chapter_8_title"
-        android:textSize="18sp" />
-
-
 </LinearLayout>
 </ScrollView>

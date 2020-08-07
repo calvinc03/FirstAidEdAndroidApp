@@ -1,11 +1,19 @@
 [
-  ["What is your favourite animal?", null, "xd", "lmao", "omegalul", "idk", 3],
-  ["What is your fate animal?", "@drawable/ic_check", "xd", "lmao", "omegalul", "idk", 2],
-  ["What i youfaurite animal?", null, "xd", "lmao", "omegalul", "idk", 5],
-  ["Whatis your faourite animal?", null, "xd", "lmao", "omegalul", "idk", 3],
-  ["What is yourfaurie animal?", "@drawable/ic_check", "xd", "lmao", "omegalul", "idk", 3],
-  ["Whatis yur favouritenimal?", null, "xd", "lmao", "omegalul", "idk", 2],
-  ["What is your favourite animal?", null, "xd", "lmao", "omegalul", "idk", 4],
-  ["Whats yourfavourite animal?", null, "xd", "lmao", "omegalul", "idk", 4],
-  ["What is your favouritenimal?", null, "xd", "lmao", "omegalul", "idk", 5]
+  ["Which of the following is not a cause of Hypoxia?", null, "Lack of oxygen", "Blocked airway", "Head and Spinal Injury", "Abnormal heart and lung function", 4],
+  ["Which of the following is a sign for effective breathing?", null, "Decreased level of consciousness", "Increased Circulation", "Breathing that is quiet", "Cyanosis", 4],
+  ["Which one of these is not a sign and symptom for Asthma?", null, "Shortness of Breath", "Coughing or Wheezing", "Fatigue", "Hives", 5],
+  ["Which of these is a medication for Asthma?", null, "Metered-dose inhaler (MDI)", "Epi-pen", "Nitroglycerin", "Insulin", 2],
+  ["Which of these is correct about medication?", null, "A first aider is allowed to assist with medication", "A first aider is allowed to give medication if the casualty is unconscious", "A first aider is not allowed to give medication", "Medication should be given right away without other considerations", 2],
+  ["Choose the answer that best fits.\nAnaphylaxis is a:", null, "Lack of Oxygen in the body", "Severe Allergic Reaction", "Temporary Heart Attach", "Breathing Emergency", 3],
+  ["Which of these is not a sign of a severe allergic reaction?", null, "itchy, flushed skin", "swollen airway", "tightness in chest", "nausea", 4],
+  ["Which of these is a medication for a severe allergic reaction?", null, "Metered-dose inhaler (MDI)", "Epi-pen", "Nitroglycerin", "Insulin", 3],
+  ["The most comfortable position for breathing is _________.", null, "sitting upright", "recovery", "lying on stomach", "supine", 2],
+  ["The image below is medication for which injury?", "question_chapter3_epipen", "Seizures", "Heart Attack", "Diabetes", "Severe Allergic Reaction", 5],
+  ["Which of the following is not a sign of a mild obstruction (Choking)?", null, "Difficulty Breathing", "Forceful Coughing", "Grey ears and blue lips", "Able to Speak", 4],
+  ["Which of the following is not a sign of a severe obstruction (Choking)?", null, "High pitched noises", "No coughing", "Not able to speak", "Red or Flushed face", 5],
+  ["What is the correct first aid for a mild obstruction (Choking)?", null, "Encourage the coughing", "Give Abdominal Thrusts", "Give water", "Begin back blows", 2],
+  ["Where on the body should the back blows be applied?", null, "All along the spine", "Lower Back", "Between the shoulder blades", "Back of the head", 4],
+  ["If the casualty becomes unresponsive after applying first aid for choking, you should...", null, "Continue with backblows and abdominal thrusts", "Move on to the next casualty in triage as this one is obviously dead", "Begin chest compressions after calling for medical help", "Call for another first aider to give first aid instead as the casualty should not have fallen unconscious", 4],
+  ["The first aider in the image is...", "question_chapter3_choking_infant", "Holding the baby in an angle that would encourage the baby to cough out their choking object", "Performing infant CPR", "Attempting to support the head from both the front and back", "Perfoming Back Blows", 5],
+  ["Which of these is not a sign that an infant is choking?", null, "laughing", "turns blue", "gagging", "noisy-breathing", 2]
 ]

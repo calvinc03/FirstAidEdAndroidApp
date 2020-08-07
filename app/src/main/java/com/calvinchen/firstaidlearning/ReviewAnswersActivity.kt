@@ -2,6 +2,7 @@ package com.calvinchen.firstaidlearning
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,6 +11,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_review_answers.*
 import org.json.JSONArray
 import org.json.JSONObject
@@ -21,6 +23,8 @@ class ReviewAnswersActivity : AppCompatActivity() {
     private lateinit var chapter : String
     private lateinit var answerList : List<String>
 
+    private var numQuestions = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_review_answers)
@@ -29,6 +33,14 @@ class ReviewAnswersActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = "${chapter.replace("_", " ")} results"
 
+        numQuestions = Constants.getNumQuestions(chapter)
+
+        begin_quiz_btn.setOnClickListener { navigateToQuizQuestions(chapter) }
+        configureDisplay()
+    }
+
+    override fun onResume() {
+        super.onResume()
         configureDisplay()
     }
 
@@ -38,10 +50,8 @@ class ReviewAnswersActivity : AppCompatActivity() {
         if (answerList.size == 1) return
         else {
             val score = getSharedPreferences("quizResults", Context.MODE_PRIVATE).getInt(chapter, -1)
-            best_score.text = "Your Best Score: $score/10"
-            best_score.visibility = View.VISIBLE
-            most_recent_results_tv.visibility = View.VISIBLE
-            quiz_not_completed_msg.visibility = View.GONE
+            best_score.text = "Your Best Score: $score/$numQuestions"
+
             displayResults()
         }
     }
@@ -99,5 +109,11 @@ class ReviewAnswersActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
+    }
+
+    private fun navigateToQuizQuestions(quizName : String) {
+        val i = Intent(this, QuizQuestionsActivity::class.java)
+        i.putExtra("quiz", quizName)
+        startActivity(i)
     }
 }

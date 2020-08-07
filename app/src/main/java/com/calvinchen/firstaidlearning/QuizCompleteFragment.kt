@@ -26,11 +26,11 @@ class QuizCompleteFragment : Fragment() {
         chapter = args?.chapter
 
         return_home.setOnClickListener {
-            (activity as QuizQuestionsActivity).onSupportNavigateUp()
+            (activity as QuizQuestionsActivity).navigateToMainActivity()
         }
 
         go_to_review.setOnClickListener {
-            chapter?.let { it1 -> (activity as QuizQuestionsActivity).navigateToReviewQuestions(it1) }
+            (activity as QuizQuestionsActivity).onSupportNavigateUp()
         }
     }
 }

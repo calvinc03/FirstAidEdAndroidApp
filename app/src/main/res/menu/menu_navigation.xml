@@ -15,4 +15,9 @@
         android:title="Practice"
         android:icon="@drawable/ic_practice"
         android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/destination_lookup"
+        android:title="Lookup"
+        android:icon="@drawable/ic_lookup"
+        android:menuCategory="secondary"/>
 </menu>

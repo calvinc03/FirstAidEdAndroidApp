@@ -43,43 +43,6 @@
                     android:visibility="visible"
                     app:srcCompat="@drawable/ic_drop_down" />
             </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch1_quiz_review"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/ch1_begin_quiz_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:background="@color/colorPrimary"
-                    android:layout_marginBottom="5dp"
-                    android:focusable="true"
-                    android:text="@string/quiz"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp" />
-                <TextView
-                    android:id="@+id/ch1_review_ans_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/attempt"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:background="@color/colorPrimaryDark"/>
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/ch2_quiz_tab"
@@ -109,43 +72,7 @@
                     android:visibility="visible"
                     app:srcCompat="@drawable/ic_drop_down"/>
             </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch2_quiz_review"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/ch2_begin_quiz_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:background="@color/colorPrimary"
-                    android:layout_marginBottom="5dp"
-                    android:focusable="true"
-                    android:text="@string/quiz"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp" />
-                <TextView
-                    android:id="@+id/ch2_review_ans_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/attempt"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:background="@color/colorPrimaryDark"/>
-            </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/ch3_quiz_tab"
                 android:layout_width="match_parent"
@@ -174,43 +101,7 @@
                     android:visibility="visible"
                     app:srcCompat="@drawable/ic_drop_down"/>
             </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch3_quiz_review"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/ch3_begin_quiz_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:background="@color/colorPrimary"
-                    android:layout_marginBottom="5dp"
-                    android:focusable="true"
-                    android:text="@string/quiz"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp" />
-                <TextView
-                    android:id="@+id/ch3_review_ans_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/attempt"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:background="@color/colorPrimaryDark"/>
-            </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/ch4_quiz_tab"
                 android:layout_width="match_parent"
@@ -239,43 +130,7 @@
                     android:visibility="visible"
                     app:srcCompat="@drawable/ic_drop_down"/>
             </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch4_quiz_review"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/ch4_begin_quiz_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:background="@color/colorPrimary"
-                    android:layout_marginBottom="5dp"
-                    android:focusable="true"
-                    android:text="@string/quiz"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp" />
-                <TextView
-                    android:id="@+id/ch4_review_ans_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/attempt"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:background="@color/colorPrimaryDark"/>
-            </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/ch5_quiz_tab"
                 android:layout_width="match_parent"
@@ -304,43 +159,7 @@
                     android:visibility="visible"
                     app:srcCompat="@drawable/ic_drop_down"/>
             </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch5_quiz_review"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/ch5_begin_quiz_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:background="@color/colorPrimary"
-                    android:layout_marginBottom="5dp"
-                    android:focusable="true"
-                    android:text="@string/quiz"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp" />
-                <TextView
-                    android:id="@+id/ch5_review_ans_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/attempt"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:background="@color/colorPrimaryDark"/>
-            </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/ch6_quiz_tab"
                 android:layout_width="match_parent"
@@ -369,43 +188,7 @@
                     android:visibility="visible"
                     app:srcCompat="@drawable/ic_drop_down"/>
             </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch6_quiz_review"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/ch6_begin_quiz_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:background="@color/colorPrimary"
-                    android:layout_marginBottom="5dp"
-                    android:focusable="true"
-                    android:text="@string/quiz"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp" />
-                <TextView
-                    android:id="@+id/ch6_review_ans_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/attempt"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:background="@color/colorPrimaryDark"/>
-            </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/ch7_quiz_tab"
                 android:layout_width="match_parent"
@@ -433,108 +216,6 @@
                     android:layout_weight="1"
                     android:visibility="visible"
                     app:srcCompat="@drawable/ic_drop_down"/>
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch7_quiz_review"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/ch7_begin_quiz_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:background="@color/colorPrimary"
-                    android:layout_marginBottom="5dp"
-                    android:focusable="true"
-                    android:text="@string/quiz"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp" />
-                <TextView
-                    android:id="@+id/ch7_review_ans_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/attempt"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:background="@color/colorPrimaryDark"/>
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch8_quiz_tab"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="3dp"
-                android:background="@drawable/button_subchapters"
-                android:gravity="center_vertical"
-                android:minHeight="50dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="6"
-                    android:layout_height="wrap_content"
-                    android:padding="8sp"
-                    android:textSize="18sp"
-                    android:text="@string/chapter_8_title"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="1"
-                    android:visibility="visible"
-                    app:srcCompat="@drawable/ic_drop_down"/>
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/ch8_quiz_review"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/ch8_begin_quiz_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:background="@color/colorPrimary"
-                    android:layout_marginBottom="5dp"
-                    android:focusable="true"
-                    android:text="@string/quiz"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp" />
-                <TextView
-                    android:id="@+id/ch8_review_ans_btn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/attempt"
-                    android:textSize="16sp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:background="@color/colorPrimaryDark"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

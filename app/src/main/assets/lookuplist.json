@@ -1,0 +1,22 @@
+[
+  ["Allergic Reaction (Anaphylaxis)", "ic_allergic_reaction", "Airway and Breathing Emergencies"],
+  ["Angina/Heart Attack", "ic_allergic_reaction", "Cardiovascular Emergencies"],
+  ["Asthma", "ic_allergic_reaction", "Airway and Breathing Emergencies"],
+  ["Bites and stings", "ic_allergic_reaction", "Wounds and Bleeding"],
+  ["Bleeding", "ic_allergic_reaction", "Wounds and Bleeding"],
+  ["Burns", "ic_allergic_reaction", "Wounds and Bleeding"],
+  ["Choking", "ic_allergic_reaction", "Airway and Breathing Emergencies"],
+  ["Concussion", "ic_allergic_reaction", "Bone and Joint Injuries"],
+  ["Diabetic Emergency", "ic_allergic_reaction", "Other First Aid Emergencies"],
+  ["Embedded object", "ic_allergic_reaction", "Wounds and Bleeding"],
+  ["Emergency childbirth", "ic_allergic_reaction", "Other First Aid Emergencies"],
+  ["Frostbite", "ic_allergic_reaction", "Other First Aid Emergencies"],
+  ["Head/spinal injury", "ic_allergic_reaction", "Bone and Joint Injuries"],
+  ["Hypothermia", "ic_allergic_reaction", "Other First Aid Emergencies"],
+  ["Heat exhaustion","ic_allergic_reaction", "Other First Aid Emergencies"],
+  ["Heatstroke", "ic_allergic_reaction", "Other First Aid Emergencies"],
+  ["Poisoning", "ic_allergic_reaction", "Other First Aid Emergencies"],
+  ["Seizure", "ic_allergic_reaction", "Other First Aid Emergencies"],
+  ["Stroke/TIA","ic_allergic_reaction","Cardiovascular Emergencies"],
+  ["Unconsciousness","ic_allergic_reaction","Emergency Scene Management"]
+]

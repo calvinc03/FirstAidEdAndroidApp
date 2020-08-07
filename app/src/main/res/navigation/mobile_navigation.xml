@@ -55,4 +55,28 @@
         android:id="@+id/infoPageActivity"
         android:name="com.calvinchen.firstaidlearning.InfoPageActivity"
         android:label="InfoPageActivity" />
+    <navigation android:id="@+id/destination_lookup"
+        app:startDestination="@id/lookupListFragment">
+        <fragment
+            android:id="@+id/lookupDetailsFragment"
+            android:name="com.calvinchen.firstaidlearning.LookupDetailsFragment"
+            android:label="fragment_lookup_details"
+            tools:layout="@layout/fragment_lookup_details">
+            <argument
+                android:name="injury"
+                app:argType="string" />
+            <argument
+                android:name="position"
+                app:argType="integer" />
+        </fragment>
+        <fragment
+            android:id="@+id/lookupListFragment"
+            android:name="com.calvinchen.firstaidlearning.LookupListFragment"
+            android:label="Quick References"
+            tools:layout="@layout/fragment_lookup_list">
+            <action
+                android:id="@+id/open_details"
+                app:destination="@id/lookupDetailsFragment" />
+        </fragment>
+    </navigation>
 </navigation>

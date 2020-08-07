@@ -63,36 +63,26 @@
     ]
   },
   "chapter_6": {
-    "title": "Chapter 6 - Introduction to First Aid",
+    "title": "Chapter 6 - Bone and Joint Injuries",
     "sub_chap": [
-      "Roles and Responsibilities",
-      "First Aid and The Law",
-      "Safety and Personal Protection",
-      "Help at the Emergency Scene",
-      "Signs and Symptoms and Mechanism of Injury",
-      "Injuries and Illnesses"
+      "Fractures",
+      "Dislocations & Sprains",
+      "Head and spinal injuries",
+      "Pelvic injury",
+      "Chest injury",
+      "Splinting materials",
+      "First aid for specific bone & joint injuries"
     ]
   },
   "chapter_7": {
-    "title": "Chapter 7 - Introduction to First Aid",
+    "title": "Chapter 7 - Other First Aid Emergencies",
     "sub_chap": [
-      "Roles and Responsibilities",
-      "First Aid and The Law",
-      "Safety and Personal Protection",
-      "Help at the Emergency Scene",
-      "Signs and Symptoms and Mechanism of Injury",
-      "Injuries and Illnesses"
-    ]
-  },
-  "chapter_8": {
-    "title": "Chapter 8 - Introduction to First Aid",
-    "sub_chap": [
-      "Roles and Responsibilities",
-      "First Aid and The Law",
-      "Safety and Personal Protection",
-      "Help at the Emergency Scene",
-      "Signs and Symptoms and Mechanism of Injury",
-      "Injuries and Illnesses"
+      "Diabetes",
+      "Seizures and convulsions",
+      "Cold-related injuries",
+      "Heat-related injuries",
+      "Poisoning",
+      "Emergency childbirth and miscarriage"
     ]
   }
 }

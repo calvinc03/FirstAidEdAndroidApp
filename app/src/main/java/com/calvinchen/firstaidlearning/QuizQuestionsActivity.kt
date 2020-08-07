@@ -25,9 +25,8 @@ class QuizQuestionsActivity : AppCompatActivity() {
         return true
     }
 
-    fun navigateToReviewQuestions(chapter : String) {
-        val i = Intent(this, ReviewAnswersActivity::class.java)
-        i.putExtra("chapter", chapter)
+    fun navigateToMainActivity() {
+        val i = Intent(this, MainActivity::class.java)
         startActivity(i)
     }
 }

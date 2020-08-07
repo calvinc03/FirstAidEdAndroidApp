@@ -38,6 +38,5 @@ class StudyFragment : Fragment() {
         ch5.setOnClickListener {goToChapter(it, "chapter_5")}
         ch6.setOnClickListener {goToChapter(it, "chapter_6")}
         ch7.setOnClickListener {goToChapter(it, "chapter_7")}
-        ch8.setOnClickListener {goToChapter(it, "chapter_8")}
     }
 }

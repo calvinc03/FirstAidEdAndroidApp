@@ -30,7 +30,6 @@ class ChaptersFragment : Fragment() {
 
         val args = arguments?.let { ChaptersFragmentArgs.fromBundle(it) }
 
-        println("This is called!!!!!!!")
         populateSubChapters(view, args?.chapter)
     }
 

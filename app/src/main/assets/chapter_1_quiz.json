@@ -1,12 +1,10 @@
 [
-  ["What is your favourite animal?", null, "xd", "lmao", "omegalul", "idk", 3],
-  ["What is your fate animal?", "@drawable/ic_check", "xd", "lmao", "omegalul", "idk", 2],
-  ["What i youfaurite animal?", null, "xd", "lmao", "omegalul", "idk", 5],
-  ["Whatis your faourite animal?", null, "xd", "lmao", "omegalul", "idk", 3],
-  ["What is yourfaurie animal?", "@drawable/ic_check", "xd", "lmao", "omegalul", "idk", 3],
-  ["Whatis yur favouritenimal?", null, "xd", "lmao", "omegalul", "idk", 2],
-  ["What is your favourite animal?", null, "xd", "lmao", "omegalul", "idk", 4],
-  ["Whats yourfavourite animal?", null, "xd", "lmao", "omegalul", "idk", 4],
-  ["What is your favouritenimal?", null, "xd", "lmao", "omegalul", "idk", 5],
-  ["What is your favouritenimal?", null, "xd", "lmao", "omegalul", "idk", 5]
+  ["Which of these is not a priority of first aid?", null, "Preserve life", "Promote recovery", "Pursue the cause of the injury", "Prevent the illness or injury from becoming worse", 4],
+  ["What is a first aider?", null, "A person who takes charge of an emergency scene and gives first aid", "A person who arrives first at the scene of the injury", "A person with proper certification in first aid", "A person with the knowledge and education of medical services", 2],
+  ["What can doctors do that first aiders cannot?", null, "Providing first aid", "Diagnosing the injury", "Providing CPR for the casualty", "Assisting in giving medication", 3],
+  ["Which of these is not a principle of a Good Samaritan?", null, "Obtaining Consent", "Using reasonable skill and care", "You do not abandon the person", "Give best first aid based on judgement even if you are not necessarily trained for it", 5],
+  ["Which of the following is not a 'sign' of an injury?", null, "bleeding", "weakness", "bruising", "discoloration", 3],
+  ["Which of the following is not a 'symptom' of an injury?", null, "nausea", "pain", "fear", "irregular breathing", 5],
+  ["Which of these situations would not require an immediate ambulance?", null, "Casualty was thrown from a vehicle", "A vehicle collision with signs of a severe impact", "Casualty has received minor bleeding on the forearm", "A fall from 6.5 meters (20 feet) or more", 4],
+  ["What is known as the golden hour?", null, "The period immediately following treatment given by a first aider", "The period immediately following an escape from a dangerous hazard", "The period immediately following a severe, life-threatening injury", "The period immediately following a trip to the hospital", 4]
 ]

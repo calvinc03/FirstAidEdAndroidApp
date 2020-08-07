@@ -38,4 +38,17 @@ object Constants {
             return JSONObject(jsonString)
         }
     }
+
+    fun getNumQuestions(chapter : String) : Int {
+        return when (chapter) {
+            "chapter_1_quiz" -> 8
+            "chapter_2_quiz" -> 20
+            "chapter_3_quiz" -> 15
+            "chapter_4_quiz" -> 20
+            "chapter_5_quiz" -> 30
+            "chapter_6_quiz" -> 15
+            "chapter_7_quiz" -> 15
+            else -> -1
+        }
+    }
 }
