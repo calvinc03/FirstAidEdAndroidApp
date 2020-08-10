@@ -33,8 +33,7 @@ class LookupItemAdapter(private val lookupList: List<LookupItem>) :
 
         init {
             itemView.setOnClickListener {
-                val open_details = LookupListFragmentDirections.openDetails(tvTitle.text as
-                        String, adapterPosition)
+                val open_details = LookupListFragmentDirections.openDetails(adapterPosition)
                 Navigation.findNavController(it).navigate(open_details)
             }
         }

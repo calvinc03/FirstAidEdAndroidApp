@@ -32,6 +32,7 @@ class InfoPageActivity : AppCompatActivity() {
 
     private var s = SpannableStringBuilder()
     private var fontSize : Float = 18F
+    private var startTime = 0L
 
     private var highlighted : String = ""
     private var highlightSpanList = mutableListOf<BackgroundColorSpan>()
@@ -51,6 +52,8 @@ class InfoPageActivity : AppCompatActivity() {
 
         buildPage()
 
+        startTime = System.currentTimeMillis()
+
         setupActionModeCallBack()
     }
 
@@ -60,6 +63,13 @@ class InfoPageActivity : AppCompatActivity() {
         with (sharedPref.edit()) {
             putString(supportActionBar?.title as String, highlighted)
             putFloat("textSize", fontSize)
+            commit()
+        }
+
+        val sharedStats = getSharedPreferences("statistics", Context.MODE_PRIVATE)
+        with (sharedStats.edit()) {
+            putLong("ReadingTime", (sharedStats.getLong("ReadingTime", 0L) + System.currentTimeMillis() -
+                    startTime))
             commit()
         }
     }

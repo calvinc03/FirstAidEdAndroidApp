@@ -74,8 +74,6 @@ class ChaptersFragment : Fragment() {
     }
 
     private fun openPage(view : View, file : String) {
-        (activity as MainActivity).studyStack.push(file)
-
         val nextPage = ChaptersFragmentDirections.openPage(file)
         Navigation.findNavController(view).navigate(nextPage)
     }

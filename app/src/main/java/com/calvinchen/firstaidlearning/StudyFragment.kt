@@ -24,7 +24,7 @@ class StudyFragment : Fragment() {
     }
 
     private fun goToChapter(v : View, chapter : String) {
-        (activity as MainActivity).studyStack.push(chapter)
+        (activity as MainActivity).studyNav = chapter
 
         val openChapter = StudyFragmentDirections.openChapter(chapter)
         Navigation.findNavController(v).navigate(openChapter)

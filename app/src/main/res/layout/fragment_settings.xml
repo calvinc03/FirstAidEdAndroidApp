@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".SettingsFragment">
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15sp"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:textSize="75sp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/Terms_and_Conditions" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version"
+        android:textStyle="bold"
         android:textColor="@android:color/black"
-        android:text="Settings" />
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"/>
 
-</FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.0.0"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"/>
+
+</LinearLayout>
+</ScrollView>

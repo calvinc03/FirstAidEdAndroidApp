@@ -10,8 +10,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.text.inSpans
 import androidx.core.text.scale
@@ -36,16 +34,17 @@ class LookupDetailsFragment : Fragment() {
         val args = arguments?.let { LookupDetailsFragmentArgs.fromBundle(it) }
         details = detailsList[args?.position!!] as JSONObject
 
+        (activity as MainActivity).lookupNav = args.position
         inflatePage()
     }
 
     private fun inflatePage() {
         val inf : LayoutInflater = activity?.applicationContext?.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-        val sub_injuries = details.get("info") as JSONArray
-        for (i in 0 until sub_injuries.length()) {
+        val subInjuries = details.get("info") as JSONArray
+        for (i in 0 until subInjuries.length()) {
             val v : View = inf.inflate(R.layout.layout_injury_reference, details_inflater, false)
 
-            val objectAtIndex = sub_injuries[i] as JSONObject
+            val objectAtIndex = subInjuries[i] as JSONObject
 
             val titleTV : TextView = v.findViewById(R.id.injury_title)
             titleTV.text = objectAtIndex.get("title") as String
@@ -53,13 +52,15 @@ class LookupDetailsFragment : Fragment() {
             val signsTV : TextView = v.findViewById(R.id.signs_symptoms)
             val signsList = objectAtIndex.get("Signs and Symptoms") as JSONArray
             val signsText = SpannableStringBuilder()
-            for (i in 0 until signsList.length()) {
+            for (k in 0 until signsList.length()) {
                 if (Build.VERSION.SDK_INT >= 28) {
-                    signsText.inSpans(BulletSpan(15, Color.BLACK, 8)) { scale(0.95F) { append(signsList[i] as String + "\n") } }
+                    signsText.inSpans(BulletSpan(15, Color.BLACK, 8)) { scale(0.95F) { append(signsList[k]
+                            as String + "\n") } }
                     signsText.scale(0.2F) {append("\n")}
                 }
                 else {
-                    signsText.inSpans(BulletSpan(15)) { scale(0.95F) { append(signsList[i] as String  + "\n") } }
+                    signsText.inSpans(BulletSpan(15)) { scale(0.95F) { append(signsList[k] as
+                            String  + "\n") } }
                     signsText.scale(0.2F) {append("\n")}
                 }
             }

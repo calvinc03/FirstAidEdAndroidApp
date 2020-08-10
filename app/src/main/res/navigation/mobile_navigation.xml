@@ -60,11 +60,8 @@
         <fragment
             android:id="@+id/lookupDetailsFragment"
             android:name="com.calvinchen.firstaidlearning.LookupDetailsFragment"
-            android:label="fragment_lookup_details"
+            android:label="Quick Reference"
             tools:layout="@layout/fragment_lookup_details">
-            <argument
-                android:name="injury"
-                app:argType="string" />
             <argument
                 android:name="position"
                 app:argType="integer" />

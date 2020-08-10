@@ -1,23 +1,22 @@
 package com.calvinchen.firstaidlearning
 
+import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
-    public var studyStack = Stack<String>()
-    public var practiceStack = Stack<String>()
-    public var progressStack = Stack<String>()
+    var studyNav = ""
+    var lookupNav = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +26,29 @@ class MainActivity : AppCompatActivity() {
 
         setupBottomNavMenu(navController)
         setupActionBar(navController)
+
+        val sharedCon = getSharedPreferences("Terms and Conditions", Context.MODE_PRIVATE)
+        if (!sharedCon.getBoolean("accepted", false)) {
+            AlertDialog.Builder(this)
+                .setTitle("Conditions")
+                .setMessage("I do not own any of the content in this app. All pages and " +
+                        "information is taken from https://www.sja" +
+                        ".ca/English/Courses-and-Training/Pages/firstaidbook.aspx. If you enjoy " +
+                        "this material, please consider taking a Standard First Aid Course. " +
+                        "\n\nThis app is meant for people who are interested in learning a bit " +
+                        "about first aid and can never replace the knowledge gained from a " +
+                        "practical first aid course. The information from this app should not " +
+                        "empower any individual to perform any first aid they are not certified " +
+                        "for. \n\nIf you have any comments or suggestions, please leave a comment" +
+                        " and I will do my best to improve the app.")
+
+                // Specifying a listener allows you to take an action before dismissing the dialog.
+                // The dialog is automatically dismissed when a dialog button is clicked.
+                .setPositiveButton("I UNDERSTAND") { _, _ ->
+                    sharedCon.edit().putBoolean("accepted", true).apply()
+                }
+                .show()
+        }
     }
 
     override fun onResume() {
@@ -36,19 +58,30 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupBottomNavMenu(navController: NavController) {
         NavigationUI.setupWithNavController(bottom_nav, navController)
-//        bottom_nav.setOnNavigationItemSelectedListener {
-//            navigateToSelectedItem(it)
-//            true
-//        }
+        bottom_nav.setOnNavigationItemSelectedListener {
+            navigateToSelectedItem(it, navController)
+        }
     }
 
-    private fun navigateToSelectedItem(item: MenuItem) {
+    private fun navigateToSelectedItem(item: MenuItem, navController: NavController) : Boolean {
+        NavigationUI.onNavDestinationSelected(item, navController)
+
         when (item.itemId) {
             R.id.destination_study -> {
-                val openChapter = StudyFragmentDirections.openChapter("xd")
-                Navigation.findNavController(this, R.id.nav_host_fragment).navigate(openChapter)
+                if (studyNav != "") {
+                    val openChapter = StudyFragmentDirections.openChapter(studyNav)
+                    navController.navigate(openChapter)
+                }
+            }
+            R.id.destination_lookup -> {
+                if (lookupNav != -1) {
+                    val open_details = LookupListFragmentDirections.openDetails(lookupNav)
+                    navController.navigate(open_details)
+                }
             }
         }
+
+        return true
     }
 
     private fun setupActionBar(navController: NavController) {
@@ -56,7 +89,8 @@ class MainActivity : AppCompatActivity() {
             .Builder(
                 R.id.study_fragment,
                 R.id.destination_practice,
-                R.id.destination_home
+                R.id.destination_home,
+                R.id.lookupListFragment
         ).build()
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
     }
@@ -73,11 +107,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return Navigation.findNavController(this, R.id.nav_host_fragment).navigateUp()
+        val navController = Navigation.findNavController(this, R.id.nav_host_fragment)
+        when (navController.currentDestination?.id) {
+            R.id.chaptersFragment -> studyNav = ""
+            R.id.lookupDetailsFragment -> lookupNav = -1
+        }
+        return navController.navigateUp()
     }
 
     override fun onBackPressed() {
-        println("onBackPressed")
+        val navController = Navigation.findNavController(this, R.id.nav_host_fragment)
+        when (navController.currentDestination?.id) {
+            R.id.chaptersFragment -> studyNav = ""
+            R.id.lookupDetailsFragment -> lookupNav = -1
+        }
         super.onBackPressed()
     }
 
@@ -86,13 +129,6 @@ class MainActivity : AppCompatActivity() {
         val i = Intent(this, InfoPageActivity::class.java)
         i.putExtra("file", pageName)
         i.putExtra("chapter", chapterName)
-        startActivity(i)
-    }
-
-    fun navigateToQuizQuestions(quizName : String) {
-        progressBar.visibility = View.VISIBLE
-        val i = Intent(this, QuizQuestionsActivity::class.java)
-        i.putExtra("quiz", quizName)
         startActivity(i)
     }
 

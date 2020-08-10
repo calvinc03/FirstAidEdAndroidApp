@@ -29,6 +29,7 @@ class QuizQuestionsFragment : Fragment() {
     private var accumulatedAnswers = ""
     private var numCorrectAnswers = 0
     private var numQuestions = -1
+    private var startTime = 0L
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -51,6 +52,7 @@ class QuizQuestionsFragment : Fragment() {
         quiz_progress_bar.max = numQuestions
 
         populateQuestion(view)
+        startTime = System.currentTimeMillis()
     }
 
     @SuppressLint("SetTextI18n")
@@ -120,6 +122,13 @@ class QuizQuestionsFragment : Fragment() {
                 this?.putInt(chapter, numCorrectAnswers)
                 this?.commit()
             }
+        }
+
+        val sharedStats = activity?.getSharedPreferences("statistics", Context.MODE_PRIVATE)
+        with (sharedStats?.edit()) {
+            this?.putLong("QuizTime", (sharedStats?.getLong("QuizTime", 0L)!! + System.currentTimeMillis()
+                    - startTime))
+            this?.commit()
         }
 
         val finishQuiz = QuizQuestionsFragmentDirections.completeQuiz("${numCorrectAnswers}/${numQuestions}",
