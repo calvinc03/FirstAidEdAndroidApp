@@ -1,7 +1,6 @@
 package com.calvinchen.firstaidlearning
 
 import android.content.Context
-import android.os.ParcelFileDescriptor.open
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.IOException
@@ -35,7 +34,7 @@ object Constants {
             e.printStackTrace()
         } finally {
             inputStream?.close()
-            return JSONObject(jsonString)
+            return JSONObject(jsonString!!)
         }
     }
 

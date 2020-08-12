@@ -18,6 +18,7 @@ import org.json.JSONArray
 import org.json.JSONObject
 import java.io.IOException
 import java.io.InputStream
+import java.util.*
 
 
 class InfoPageFragment : Fragment() {
@@ -37,10 +38,10 @@ class InfoPageFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val args = arguments?.let { InfoPageFragmentArgs.fromBundle(it) }
-        val fileName : String? = args?.file?.replace(" ", "_")?.toLowerCase() + ".json"
+        val fileName : String? = args?.file?.replace(" ", "_")?.toLowerCase(Locale.ROOT) + ".json"
 
         loadJson(this.requireContext(), fileName)
-        buildPage(view)
+        buildPage()
     }
 
     private fun loadJson(context: Context, file : String?) {
@@ -59,7 +60,7 @@ class InfoPageFragment : Fragment() {
         }
     }
 
-    private fun buildPage(view : View) {
+    private fun buildPage() {
         val metrics = DisplayMetrics()
         activity?.windowManager?.defaultDisplay?.getMetrics(metrics)
         screenWidth = metrics.widthPixels - 20

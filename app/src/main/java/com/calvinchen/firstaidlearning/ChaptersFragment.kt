@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.navigation.Navigation
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -35,7 +34,7 @@ class ChaptersFragment : Fragment() {
 
     private fun populateSubChapters(view : View, chapter_num : String?) {
         val layout : LinearLayout = view.findViewById(R.id.chapters_layout)
-        val chapter : JSONObject = chaptersList.get(chapter_num) as JSONObject
+        val chapter : JSONObject = chaptersList.get(chapter_num!!) as JSONObject
 
         val title : String = chapter.get("title") as String
         val titleTv : TextView = view.findViewById(R.id.chapter_title)
@@ -55,26 +54,19 @@ class ChaptersFragment : Fragment() {
             }
 
             v.setOnClickListener {
-                if (chapter_num != null) {
-                    val sharedPref = activity?.getSharedPreferences("visited", Context.MODE_PRIVATE)
-                    with(sharedPref?.edit()) {
-                        this?.putBoolean(subChapters[i] as String, true)
-                        this?.apply()
-                    }
-                    (activity as MainActivity).navigateToInfoPage(
-                        chapter_num,
-                        subChapters[i] as String
-                    )
-                    val image : ImageView = v.findViewById(R.id.subChapter_check)
-                    image.setImageResource(R.drawable.ic_check)
+                val sharedPref = activity?.getSharedPreferences("visited", Context.MODE_PRIVATE)
+                with(sharedPref?.edit()) {
+                    this?.putBoolean(subChapters[i] as String, true)
+                    this?.apply()
                 }
+                (activity as MainActivity).navigateToInfoPage(
+                    chapter_num,
+                    subChapters[i] as String
+                )
+                val image : ImageView = v.findViewById(R.id.subChapter_check)
+                image.setImageResource(R.drawable.ic_check)
             }
             layout.addView(v)
         }
-    }
-
-    private fun openPage(view : View, file : String) {
-        val nextPage = ChaptersFragmentDirections.openPage(file)
-        Navigation.findNavController(view).navigate(nextPage)
     }
 }

@@ -1,14 +1,10 @@
 package com.calvinchen.firstaidlearning
 
-import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.navigation.Navigation
-import kotlinx.android.synthetic.main.activity_main.*
-import org.json.JSONArray
 
 class QuizQuestionsActivity : AppCompatActivity() {
     private lateinit var chapterQuiz : String

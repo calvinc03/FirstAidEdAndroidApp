@@ -14,14 +14,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.bold
 import androidx.core.text.inSpans
 import androidx.core.text.scale
-import androidx.navigation.Navigation
-import androidx.navigation.ui.NavigationUI
 import kotlinx.android.synthetic.main.activity_infopage.*
 import org.json.JSONArray
 import org.json.JSONObject
-import java.io.IOException
-import java.io.InputStream
-import java.util.*
 
 
 class InfoPageActivity : AppCompatActivity() {

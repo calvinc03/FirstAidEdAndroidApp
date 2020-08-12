@@ -20,7 +20,7 @@ class StudyFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        initializeOnClickListeners(view)
+        initializeOnClickListeners()
     }
 
     private fun goToChapter(v : View, chapter : String) {
@@ -30,7 +30,7 @@ class StudyFragment : Fragment() {
         Navigation.findNavController(v).navigate(openChapter)
     }
 
-    private fun initializeOnClickListeners(view : View) {
+    private fun initializeOnClickListeners() {
         ch1.setOnClickListener {goToChapter(it, "chapter_1")}
         ch2.setOnClickListener {goToChapter(it, "chapter_2")}
         ch3.setOnClickListener {goToChapter(it, "chapter_3")}

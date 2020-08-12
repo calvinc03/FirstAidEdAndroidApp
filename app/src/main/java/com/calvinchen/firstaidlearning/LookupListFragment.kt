@@ -20,11 +20,11 @@ class LookupListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val LookupListJSON = Constants.getJsonArrayFromFile(requireContext(), "lookuplist.json")
-        val lookuplist = mutableListOf<LookupItem>();
+        val lookupListJSON = Constants.getJsonArrayFromFile(requireContext(), "lookuplist.json")
+        val lookuplist = mutableListOf<LookupItem>()
 
-        for (i in 0 until LookupListJSON.length()) {
-            val item = LookupListJSON[i] as JSONArray
+        for (i in 0 until lookupListJSON.length()) {
+            val item = lookupListJSON[i] as JSONArray
             val drawable = resources.getDrawable(resources.getIdentifier(item[1] as String,
                 "drawable", requireContext().packageName), null)
             lookuplist.add(LookupItem(drawable, item[0] as String, item[2] as String))
