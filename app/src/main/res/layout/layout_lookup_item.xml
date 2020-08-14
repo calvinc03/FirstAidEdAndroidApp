@@ -11,7 +11,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_lookup_item"
+        android:background="@drawable/button_lookup_item"
         android:gravity="center"
         android:minHeight="60dp"
         android:layout_marginLeft="30dp"

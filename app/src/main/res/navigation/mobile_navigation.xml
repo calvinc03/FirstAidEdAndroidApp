@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/destination_settings"
         android:name="com.calvinchen.firstaidlearning.SettingsFragment"
-        android:label="Settings"
+        android:label="Disclaimer"
         tools:layout="@layout/fragment_settings" />
     <navigation android:id="@+id/destination_study"
         app:startDestination="@id/study_fragment">

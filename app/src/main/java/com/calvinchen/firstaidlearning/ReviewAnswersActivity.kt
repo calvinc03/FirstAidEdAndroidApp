@@ -33,7 +33,6 @@ class ReviewAnswersActivity : AppCompatActivity() {
         numQuestions = Constants.getNumQuestions(chapter)
 
         begin_quiz_btn.setOnClickListener { navigateToQuizQuestions(chapter) }
-        configureDisplay()
     }
 
     override fun onResume() {

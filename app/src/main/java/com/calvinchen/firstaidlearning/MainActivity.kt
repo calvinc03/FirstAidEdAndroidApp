@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         val sharedCon = getSharedPreferences("Terms and Conditions", Context.MODE_PRIVATE)
         if (!sharedCon.getBoolean("accepted", false)) {
             AlertDialog.Builder(this)
-                .setTitle("Conditions")
+                .setTitle("Disclaimer")
                 .setMessage("I do not own any of the content in this app. All pages and " +
                         "information is taken from https://www.sja" +
                         ".ca/English/Courses-and-Training/Pages/firstaidbook.aspx. If you enjoy " +
