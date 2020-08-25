@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FirstAidLearning</string>
+    <string name="app_name">First Aid Study</string>
     <string name="image">image</string>
     <string name="placeholder_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="chapter_1_title">Introduction to First Aid</string>
@@ -14,7 +14,7 @@
     <string name="attempt">Review Your Answers</string>
     <string name="Terms_and_Conditions">
         I do not own any of the content in this app. All pages and information is taken from
-        https://www.sja.ca/English/Courses-and-Training/Pages/firstaidbook.aspx. If you enjoy
+        the St. John Ambulance Standard First Aid Handbook. If you enjoy
         this material, please consider taking a Standard First Aid Course. All icons are
         taken from icons8.com and flaticon.com. \n\nThis app is meant
         for people who are interested in learning a bit about first aid and can never replace the

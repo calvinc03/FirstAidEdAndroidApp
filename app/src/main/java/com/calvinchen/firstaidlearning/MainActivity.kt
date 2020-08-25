@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
             AlertDialog.Builder(this)
                 .setTitle("Disclaimer")
                 .setMessage("I do not own any of the content in this app. All pages and " +
-                        "information is taken from https://www.sja" +
-                        ".ca/English/Courses-and-Training/Pages/firstaidbook.aspx. If you enjoy " +
+                        "information is taken from the St. John Ambulance Standard First Aid " +
+                        "Handbook. If you enjoy " +
                         "this material, please consider taking a Standard First Aid Course. All " +
                         "icons and images are taken from icons8.com and flaticon.com." +
                         "\n\nThis app is meant for people who are interested in learning a bit " +
