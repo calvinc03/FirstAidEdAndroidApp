@@ -10,6 +10,7 @@ import android.text.style.BulletSpan
 import android.text.style.ImageSpan
 import android.util.DisplayMetrics
 import android.view.*
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.bold
 import androidx.core.text.inSpans
@@ -50,6 +51,25 @@ class InfoPageActivity : AppCompatActivity() {
         startTime = System.currentTimeMillis()
 
         setupActionModeCallBack()
+
+        val sharedCon = getSharedPreferences("guide", Context.MODE_PRIVATE)
+        if (!sharedCon.getBoolean("info page guide", false)) {
+            AlertDialog.Builder(this)
+                .setTitle("Tips")
+                .setMessage("Press and hold text to highlight the text that you find important. " +
+                        "Don't worry, these highlights will be there when you revisit the page " +
+                        "next time. Click on icon at the top right corner to remove all " +
+                        "highlights on the" +
+                        " page. \n\nYou can also adjust the text size with the buttons beside it " +
+                        "so feel free to read at the preferred text size you want!")
+
+                // Specifying a listener allows you to take an action before dismissing the dialog.
+                // The dialog is automatically dismissed when a dialog button is clicked.
+                .setPositiveButton("Got It") { _, _ ->
+                    sharedCon.edit().putBoolean("info page guide", true).apply()
+                }
+                .show()
+        }
     }
 
     override fun onPause() {

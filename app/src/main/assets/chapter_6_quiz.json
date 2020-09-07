@@ -13,5 +13,5 @@
   ["For which injury does the treatment in the image show?", "question_chapter6_elbow_fracture", "Wrist fracture", "Lower Arm fracture", "Upper Arm fracture", "Elbow fracture", 5],
   ["For which injury does the treatment in the image show?", "image_fracture_femur1", "Femur fracture", "Lower Leg fracture", "Ankle fracture", "Knee fracture", 2],
   ["For which injury does the treatment in the image show?", "image_sprain_ankle", "Femur fracture", "Lower Leg fracture", "Ankle fracture", "Knee fracture", 4],
-  ["For which injury does the treatment in the image show?", "image_fracture_lower_leg", "image_sprain_ankle", "Femur fracture", "Lower Leg fracture", "Ankle fracture", "Knee fracture", 3]
+  ["For which injury does the treatment in the image show?", "image_fracture_lower_leg", "Femur fracture", "Lower Leg fracture", "Ankle fracture", "Knee fracture", 3]
 ]
